@@ -1,0 +1,2 @@
+# To deploy new code
+./deploy.sh COMMENT (one word comment can use numbers and dashes no quotes)
