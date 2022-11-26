@@ -1,0 +1,112 @@
+{
+  "shapes" : [
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"advanced:rounded-rect\",\n  \"position\" : \"{160, 135}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"CEF37487-3496-4025-8698-65EF1FBAC900\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"Ashi\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"advanced:rounded-rect\",\n  \"position\" : \"{160, 245}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"110CF135-6D50-4078-8B8B-C6CB4202BA4E\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"topside Ashi\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"advanced:rounded-rect\",\n  \"position\" : \"{300, 245}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"36B16BE0-C044-47F9-9FB6-BF537BD0BD5D\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"reverse Ashi\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"advanced:rounded-rect\",\n  \"position\" : \"{380, 360}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"B81AEF09-1653-4FAE-8E43-F086DC580874\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"4-11\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"advanced:rounded-rect\",\n  \"position\" : \"{260, 360}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"B6753E17-CE5B-4A08-A771-3DA28062060F\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"Russian Cowboy\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"advanced:rounded-rect\",\n  \"position\" : \"{470, 150}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"240CC8DE-CCDD-4A5B-AC4F-41756583198F\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"50 50\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"advanced:rounded-rect\",\n  \"position\" : \"{300, 135}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"E7948457-DA35-4054-AEBA-8F1E93F4465D\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"outside Ashi\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{210, 245}\",\n  \"identifier\" : \"F74B8833-EC05-4E08-AA05-05BBCDA9457F\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, -0.5}\"\n  },\n  \"sourcePoint\" : \"{210, 205}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0.5}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{300, 170}\",\n  \"identifier\" : \"8F397D58-2A53-4268-8D6F-1E2D5990A5CB\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{260, 170}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.5, 0}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{350, 245}\",\n  \"identifier\" : \"9C2E17C2-2C68-47FA-A25D-8EF373E2701E\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, -0.5}\"\n  },\n  \"sourcePoint\" : \"{350, 205}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0.5}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{310, 360}\",\n  \"identifier\" : \"86076F75-4427-45E1-83D3-A8C3997F6A4B\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, -0.5}\"\n  },\n  \"sourcePoint\" : \"{300, 280}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{430, 360}\",\n  \"identifier\" : \"2E8DC58C-263A-4D19-9110-73927FDC418A\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, -0.5}\"\n  },\n  \"sourcePoint\" : \"{400, 280}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.5, 0}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{470, 185}\",\n  \"identifier\" : \"FF4B1C23-A24F-47C9-BFE1-4B81F0D9414D\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{400, 170}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.5, 0}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"advanced:rounded-rect\",\n  \"position\" : \"{270, 505}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"C94115FD-BE6B-46E2-82A0-9E59BBDA9EAF\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"Honey Hole\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    }
+  ],
+  "frame" : [
+    [
+      0,
+      0
+    ],
+    [
+      827,
+      1169
+    ]
+  ],
+  "terminals" : {
+    "9C2E17C2-2C68-47FA-A25D-8EF373E2701E" : [
+      "E7948457-DA35-4054-AEBA-8F1E93F4465D",
+      "36B16BE0-C044-47F9-9FB6-BF537BD0BD5D"
+    ],
+    "FF4B1C23-A24F-47C9-BFE1-4B81F0D9414D" : [
+      "E7948457-DA35-4054-AEBA-8F1E93F4465D",
+      "240CC8DE-CCDD-4A5B-AC4F-41756583198F"
+    ],
+    "2E8DC58C-263A-4D19-9110-73927FDC418A" : [
+      "36B16BE0-C044-47F9-9FB6-BF537BD0BD5D",
+      "B81AEF09-1653-4FAE-8E43-F086DC580874"
+    ],
+    "F74B8833-EC05-4E08-AA05-05BBCDA9457F" : [
+      "CEF37487-3496-4025-8698-65EF1FBAC900",
+      "110CF135-6D50-4078-8B8B-C6CB4202BA4E"
+    ],
+    "86076F75-4427-45E1-83D3-A8C3997F6A4B" : [
+      "36B16BE0-C044-47F9-9FB6-BF537BD0BD5D",
+      "B6753E17-CE5B-4A08-A771-3DA28062060F"
+    ],
+    "8F397D58-2A53-4268-8D6F-1E2D5990A5CB" : [
+      "CEF37487-3496-4025-8698-65EF1FBAC900",
+      "E7948457-DA35-4054-AEBA-8F1E93F4465D"
+    ]
+  },
+  "design" : {
+    "connectorPathStyle" : "rounded",
+    "themeName" : "office",
+    "paper" : {
+      "rightMargin" : 20,
+      "bottomMargin" : 20,
+      "topMargin" : 20,
+      "name" : "a4",
+      "leftMargin" : 20,
+      "ori" : true
+    },
+    "autoFrame" : true,
+    "showPageMarker" : true
+  },
+  "showsGrids" : true,
+  "version" : "100"
+}

@@ -1,0 +1,504 @@
+{
+  "shapes" : [
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"image\",\n  \"position\" : \"{146.04836193447738, -400}\",\n  \"angle\" : 0,\n  \"size\" : \"{530.95163806552262, 340}\",\n  \"identifier\" : \"B0CF8B6A-70E5-4D63-B349-655613F44DC1\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_11\",\n  \"privateStyle\" : {\n    \"textVerticalAlignment\" : 0\n  },\n  \"image\" : \"d1vszqqk\",\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, -20}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 60}\",\n  \"identifier\" : \"2F62F28E-841E-404A-A0DC-A2F01A43E0A2\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_17\",\n  \"value\" : \"2. The basic elements\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,24.0\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 64}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 56}\",\n  \"identifier\" : \"1E57FCBD-B2D0-4925-A99A-F91775F8FEEB\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"A node is the most basic element of a flowchart, represented by a shape that can add any text. A node can also be an image.\",\n  \"privateStyle\" : {\n    \"font\" : \"PingFangSC-Regular,14.0\",\n    \"textAlignment\" : 0\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 32}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 36}\",\n  \"identifier\" : \"52FB05DD-8CBD-4B80-865D-1A642764804C\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"2.1 Node\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,18.0\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 1030}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 60}\",\n  \"identifier\" : \"FB8D9C07-F7A1-4E98-9BE0-FE96EA093261\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_17\",\n  \"value\" : \"5. Operations\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,24.0\",\n    \"textAlignment\" : 0\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 1098}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 30}\",\n  \"identifier\" : \"E565F531-0CE3-40A8-B69A-964EB70B7B97\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"5.1 Select nodes\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,18.0\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 1127}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 163}\",\n  \"identifier\" : \"705132EE-2B86-4639-BAC6-352BA2650A04\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"The selection tool is used to select nodes and connectors. In general, the selection tool is in use (you can return to the tool at any time by pressing Esc). When using the selection tool: Press and hold Command or Shift to combine selections, hold Option to copy selected nodes and move, press the left mouse button in the space to begin a marquee select. Note: when marquee select, only the nodes which all parts in the marquee rect will be selected.\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"PingFangSC-Regular,14.0\",\n    \"textVerticalAlignment\" : 0\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 1329}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 131}\",\n  \"identifier\" : \"6F5FB46A-08DE-4A2B-9AB9-1A1ED7FCB181\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"Double-click a node to start text editing. For nodes that contain multiple text fields, double-click the text that needs to be edited. When editing text: Press Enter\\\/Return to end editing, press Shift+Return to start a new line. If the “hover edit” feature is enabled (toggle from the app’s preferences panel), the text input box will automatically appear when you click the node and keep the mouse still for a moment.\",\n  \"privateStyle\" : {\n    \"font\" : \"PingFangSC-Regular,14.0\",\n    \"textAlignment\" : 0,\n    \"textVerticalAlignment\" : 0\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 1300}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 30}\",\n  \"identifier\" : \"902A611F-81FE-47EA-9372-9C3E3991E534\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"5.2 Edit text\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,18.0\",\n    \"textAlignment\" : 0\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 1473.5}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 30}\",\n  \"identifier\" : \"8BDAB3E3-5CB4-4D2F-8BA0-AAFD3C9C07C8\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"5.3 Move nodes\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,18.0\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 1501}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 89}\",\n  \"identifier\" : \"9955102B-C202-4AEA-829D-250B733F086C\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"Pressing the left mouse button on a node and dragging can move the selected node, or you can press the keyboard's arrow key to move the selected nodes. When moving by arrow keys, press and hold Shift key to move faster.\",\n  \"privateStyle\" : {\n    \"font\" : \"PingFangSC-Regular,14.0\",\n    \"textAlignment\" : 0,\n    \"textVerticalAlignment\" : 0\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 1628.75}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 81.25}\",\n  \"identifier\" : \"E17FB738-3683-4949-AA6C-A5A0565BEB48\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"When any nodes selected, drag the square control handle to resize them. When resize, holding Shift key to keep the aspect ratio of the nodes, and holding Command key to keep the center point of the node unchanged.\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"PingFangSC-Regular,14.0\",\n    \"textVerticalAlignment\" : 0\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 1601.25}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 30}\",\n  \"identifier\" : \"8B54CC95-5F69-4DA2-80B8-FF36238A1490\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"5.4 Resize nodes\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,18.0\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 2057.5}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 135}\",\n  \"identifier\" : \"22D5E442-BCCA-4938-8AC8-3E281AF9BEA6\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"When you select the Connector tool, the connection points of the nodes near the mouse are displayed. When the mouse approaches a connection point, a small circle appears. At this point, press the left mouse button and drag to the connection point of another node, release the mouse, then the connector is built. You can also create a connector that connects to anywhere.\",\n  \"privateStyle\" : {\n    \"font\" : \"PingFangSC-Regular,14.0\",\n    \"textAlignment\" : 0,\n    \"textVerticalAlignment\" : 0\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 2030}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 30}\",\n  \"identifier\" : \"C7AA2AA8-AF93-44B2-85AB-E7B8E867378D\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"6.1 Connector tool\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,18.0\",\n    \"textAlignment\" : 0\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 1848.1333333333332}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 111.86666666666679}\",\n  \"identifier\" : \"43CEC1D2-FB17-45F7-B884-64B636F9A688\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"As the mouse passes a node, four quick connection arrows appear near it. Click an arrow, a new node will be created and connect to the current node, if there are no nodes at the destination. Or, a connector between the current node and the target node will be created.\",\n  \"privateStyle\" : {\n    \"font\" : \"PingFangSC-Regular,14.0\",\n    \"textAlignment\" : 0,\n    \"textVerticalAlignment\" : 0\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 1820.6333333333332}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 30}\",\n  \"identifier\" : \"C3131CCA-B942-4981-BC63-1E621B6A215B\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"5.6 Quick connection\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,18.0\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 455}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 110}\",\n  \"identifier\" : \"367E3C33-066A-4007-836A-32F289CB5F64\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"A group is a special node that contains multiple child nodes. Selecting some nodes, clicking the “Group” button from the toolbar, or selecting the “Group” item in the context menu will form a group node. A group, like other basic nodes, can be moved, rotated, resized, and so on.\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"PingFangSC-Regular,14.0\",\n    \"textVerticalAlignment\" : 0\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 380}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 45}\",\n  \"identifier\" : \"16116A8C-33C6-453E-8158-6285F0846AD8\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_17\",\n  \"value\" : \"3. Special nodes\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,24.0\",\n    \"textAlignment\" : 0\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 672.63333333333321}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 35}\",\n  \"identifier\" : \"1B4181B4-456B-4F78-9AE3-69F70DE14CE6\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_17\",\n  \"value\" : \"4. Table and Swim pool\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,24.0\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 742.63333333333321}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 114.73333333333358}\",\n  \"identifier\" : \"EB0814A1-7400-4109-AA22-2CA3149C4668\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"A table is a container. A table consists of rows and columns, and you can set a title for a row or column. When the table is selected, drag the title of one row to another to swap their locations, and the nodes it contains are exchanged to. Similarly, dragging column titles swaps the locations of columns.\",\n  \"privateStyle\" : {\n    \"font\" : \"PingFangSC-Regular,14.0\",\n    \"textAlignment\" : 0,\n    \"textVerticalAlignment\" : 0\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 232.5}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 55}\",\n  \"identifier\" : \"8D441116-73CA-4944-9A72-29D71853F3A7\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"Nodes and connectors have a variety of properties, such as fill colors, stroke colors, fonts, and so on, such a set of properties is called a style.\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"PingFangSC-Regular,14.0\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 200}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 32.5}\",\n  \"identifier\" : \"F682D760-D922-459D-8312-2479249AEE9E\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"2.3 Style\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,18.0\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 164}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 31}\",\n  \"identifier\" : \"1ED0DEE3-075D-4E81-840D-5025B0EE6E0E\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"Connectors are used to connect nodes, which represent relationships between nodes.\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"PingFangSC-Regular,14.0\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 130}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 32}\",\n  \"identifier\" : \"DB1DFDB1-CA18-42D7-8DDD-875BEC8BC58D\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"2.2 Connector\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,18.0\",\n    \"textAlignment\" : 0\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 329}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 31}\",\n  \"identifier\" : \"9FF7E302-873B-46EE-A167-43BC293EBDDF\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"A theme contains a set of styles.\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"PingFangSC-Regular,14.0\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 300}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 32}\",\n  \"identifier\" : \"D7B17BFD-7FF1-4689-8439-3A3018A57CF9\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"2.4 Theme\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,18.0\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{457, -460}\",\n  \"angle\" : 0,\n  \"size\" : \"{83, 50}\",\n  \"identifier\" : \"E9920B9C-CED2-41F4-87B9-46375B739CF3\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_45\",\n  \"value\" : \"Shape Inspector\",\n  \"privateStyle\" : {\n    \"shadowMode\" : 3,\n    \"textAlignment\" : 2,\n    \"shadowColor\" : \"#929292FF\",\n    \"font\" : \"PingFangSC-Regular,14.0\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{152, -460}\",\n  \"angle\" : 0,\n  \"size\" : \"{70, 50}\",\n  \"identifier\" : \"E2B93F48-F4EC-4A3B-8CA4-24E01E2F9F29\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_45\",\n  \"value\" : \"Shapes Panel\",\n  \"privateStyle\" : {\n    \"shadowMode\" : 3,\n    \"textAlignment\" : 2,\n    \"shadowColor\" : \"#929292FF\",\n    \"font\" : \"PingFangSC-Regular,14.0\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{332, -280}\",\n  \"angle\" : 0,\n  \"size\" : \"{70, 50}\",\n  \"identifier\" : \"C3013C3A-12D8-42D1-B547-F5CFAEF74178\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_45\",\n  \"value\" : \"Canvas\",\n  \"privateStyle\" : {\n    \"shadowColor\" : \"#929292FF\",\n    \"shadowMode\" : 3\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{292, -460}\",\n  \"angle\" : 0,\n  \"size\" : \"{70, 50}\",\n  \"identifier\" : \"2E87249C-BC1C-4064-BD5C-0E2DC65CD418\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_45\",\n  \"value\" : \"Tools\",\n  \"privateStyle\" : {\n    \"shadowMode\" : 3,\n    \"textAlignment\" : 2,\n    \"shadowColor\" : \"#929292FF\",\n    \"font\" : \"PingFangSC-Regular,14.0\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{202, -315}\",\n  \"identifier\" : \"A85CAE56-3E50-45C1-8EA7-22FEEAC6AA7E\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"shadowMode\" : 4,\n    \"strokeColor\" : \"#941751FF\",\n    \"pathStyle\" : \"segment\",\n    \"connectorMode\" : 5\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0}\"\n  },\n  \"sourcePoint\" : \"{187, -435}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0}\"\n  }\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{600, -460}\",\n  \"angle\" : 0,\n  \"size\" : \"{87, 50}\",\n  \"identifier\" : \"17E140F7-06F0-47DE-AF0E-853308E64DFE\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_45\",\n  \"value\" : \"Design\\nInspector\",\n  \"privateStyle\" : {\n    \"shadowMode\" : 3,\n    \"textAlignment\" : 2,\n    \"shadowColor\" : \"#929292FF\",\n    \"font\" : \"PingFangSC-Regular,14.0\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{512, -340}\",\n  \"identifier\" : \"A7B4BAC8-427C-4931-B809-32C81A47D501\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"shadowMode\" : 4,\n    \"strokeColor\" : \"#941751FF\",\n    \"pathStyle\" : \"segment\",\n    \"connectorMode\" : 5\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0}\"\n  },\n  \"sourcePoint\" : \"{498.5, -435}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0}\"\n  }\n}"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{612, -340}\",\n  \"identifier\" : \"13406581-408D-475D-A7C1-61C7137FCAEA\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"shadowMode\" : 4,\n    \"strokeColor\" : \"#941751FF\",\n    \"pathStyle\" : \"segment\",\n    \"connectorMode\" : 5\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0}\"\n  },\n  \"sourcePoint\" : \"{643.5, -435}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{237, -370}\",\n  \"identifier\" : \"ECA703F5-8BE5-41EB-9CD0-0E90BBC6C651\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"shadowMode\" : 4,\n    \"strokeColor\" : \"#941751FF\",\n    \"pathStyle\" : \"segment\",\n    \"connectorMode\" : 5\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0}\"\n  },\n  \"sourcePoint\" : \"{327, -435}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0}\"\n  }\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, -535}\",\n  \"angle\" : 0,\n  \"size\" : \"{250, 50}\",\n  \"identifier\" : \"D81C2BFB-99AC-44E2-B89A-39FDA7CDB2F1\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_17\",\n  \"value\" : \"1. User Interface\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,24.0\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : true,\n  \"shape\" : \"flowchart-connector\",\n  \"position\" : \"{232, -375}\",\n  \"angle\" : 0,\n  \"size\" : \"{10, 10}\",\n  \"identifier\" : \"9DEA7B2C-CF40-42F0-A1C6-C7E68D0FCA11\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"privateStyle\" : {\n    \"shadowMode\" : 4\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : true,\n  \"shape\" : \"flowchart-connector\",\n  \"position\" : \"{197, -320}\",\n  \"angle\" : 0,\n  \"size\" : \"{10, 10}\",\n  \"identifier\" : \"34C97491-4768-4420-ABB0-E77B7E71B42F\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"privateStyle\" : {\n    \"shadowMode\" : 4\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : true,\n  \"shape\" : \"flowchart-connector\",\n  \"position\" : \"{507, -345}\",\n  \"angle\" : 0,\n  \"size\" : \"{10, 10}\",\n  \"identifier\" : \"611B5302-C85E-43A7-8629-8A815C5E8776\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"privateStyle\" : {\n    \"shadowMode\" : 4\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : true,\n  \"shape\" : \"flowchart-connector\",\n  \"position\" : \"{607, -345}\",\n  \"angle\" : 0,\n  \"size\" : \"{10, 10}\",\n  \"identifier\" : \"2E7BAC19-B836-49DF-9D5B-D8990CE417A7\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"privateStyle\" : {\n    \"shadowMode\" : 4\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 594.63333333333321}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 60}\",\n  \"identifier\" : \"90DFFF69-ABDE-40F2-8C9C-7845C6B945BD\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"A container is another special node that contains multiple child nodes. However, when you resize a container, its child nodes does not change.\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"PingFangSC-Regular,14.0\",\n    \"textVerticalAlignment\" : 0\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 430}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 30}\",\n  \"identifier\" : \"BAC68077-152E-4192-8392-5FA39282F528\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"3.1 Group\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,18.0\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 572.63333333333321}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 30}\",\n  \"identifier\" : \"533F269B-F95E-471A-AFFB-E9A46F86DAE7\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"3.2 Container\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,18.0\",\n    \"textAlignment\" : 0\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 902.16666666666674}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 30.333333333333329}\",\n  \"identifier\" : \"E7747898-8CAD-4CFF-A4A5-53D05F20D06D\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"A horizontal pool is a single-column table, each row called a lane.\",\n  \"privateStyle\" : {\n    \"font\" : \"PingFangSC-Regular,14.0\",\n    \"textAlignment\" : 0,\n    \"textVerticalAlignment\" : 0\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 712.63333333333321}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 30}\",\n  \"identifier\" : \"4CF4C1C5-C197-4263-9EC5-9E8D027058F9\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"4.1 Table\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,18.0\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 985}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 34.999999999999993}\",\n  \"identifier\" : \"FA90E1A5-2633-4405-A688-B74591140606\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"A vertical pool is a single-row table, each column called a lane.\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"PingFangSC-Regular,14.0\",\n    \"textVerticalAlignment\" : 0\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 868.79999999999995}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 26}\",\n  \"identifier\" : \"8C70F9E5-0F00-48AF-9F48-58D9D4CEE6C8\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"4.2 Horizontal pool\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,18.0\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 954.5}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 26}\",\n  \"identifier\" : \"A7EB69E3-3E3E-4C79-9EDD-19A4DCF8C148\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"4.3 Vertical pool\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,18.0\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{220, -696}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 60}\",\n  \"identifier\" : \"0223B6F4-DD66-4782-8545-E228BDDA2FC7\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"Flowchart Designer 3\\nUser Manual\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica-Light,18.0\",\n    \"textAlignment\" : 2\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"image\",\n  \"position\" : \"{296.5, 2027.5}\",\n  \"angle\" : 0,\n  \"size\" : \"{47, 35}\",\n  \"identifier\" : \"ABE49F77-BDBD-4083-B821-A5C1E11AB3F2\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_11\",\n  \"privateStyle\" : {\n    \"textVerticalAlignment\" : 0\n  },\n  \"image\" : \"5opkslht\",\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"image\",\n  \"position\" : \"{220, 428}\",\n  \"angle\" : 0,\n  \"size\" : \"{50, 34}\",\n  \"identifier\" : \"C9F050C9-311D-4D2F-957F-08C18F3BDA1B\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_11\",\n  \"privateStyle\" : {\n    \"textVerticalAlignment\" : 0\n  },\n  \"image\" : \"33e6bkkv\",\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"image\",\n  \"position\" : \"{215.2890625, 709.13333333333321}\",\n  \"angle\" : 0,\n  \"size\" : \"{48, 37}\",\n  \"identifier\" : \"56AE7859-33F8-4C4E-B35E-E0D7C3C59061\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_11\",\n  \"privateStyle\" : {\n    \"textVerticalAlignment\" : 0\n  },\n  \"image\" : \"0ftjer5b\",\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"image\",\n  \"position\" : \"{290, 861.43333333333294}\",\n  \"angle\" : 0,\n  \"size\" : \"{46, 40.733333333333334}\",\n  \"identifier\" : \"2806956C-4830-415A-BA68-F387BED93C26\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_11\",\n  \"privateStyle\" : {\n    \"textVerticalAlignment\" : 0\n  },\n  \"image\" : \"buomfkuf\",\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"image\",\n  \"position\" : \"{270, 950}\",\n  \"angle\" : 0,\n  \"size\" : \"{47, 35}\",\n  \"identifier\" : \"CB7AAC65-3891-477F-B996-05750825A25E\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_11\",\n  \"privateStyle\" : {\n    \"textVerticalAlignment\" : 0\n  },\n  \"image\" : \"yit1fbfj\",\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 1745}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 55}\",\n  \"identifier\" : \"D24902EE-989D-4A80-86FA-78184ACFA70D\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"When a node is selected, drag the circular control point to rotate the node. When you rotate a node, hold Shift to make the angle of the node a multiple of 15.\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"PingFangSC-Regular,14.0\",\n    \"textVerticalAlignment\" : 0\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 1720}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 30}\",\n  \"identifier\" : \"73B69086-19FD-400F-B899-4742194931B2\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"5.5 Rotate nodes\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,18.0\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 2337.5}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 382.5}\",\n  \"identifier\" : \"0AE0D033-079F-4A6E-9393-678EA48B017B\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"The Path tool is used to draw an arbitrary path.  To use the Path tool, click the Path Tool button from the toolbar and draw with the mouse on the canvas:  1. Add a path node: Click the left mouse button to add a sharp path node, or press the left button and drag to create a smooth path node.\\n2. Close path: click the yellow handle to close and end the path drawing, you can also drag the yellow handle to create a smooth seal;\\n3. End path drawing (not closed): press Enter key;\\n4. Discard path: Press Esc key.\\nTips:\\n1. You can right-click to pop up the context menu and select “End Path”, “Closed Path”, or “Discard Path” to end drawing.\\n2. When add a path node, press and hold the Shift key to create a horizontal or vertical segment.\",\n  \"privateStyle\" : {\n    \"font\" : \"PingFangSC-Regular,14.0\",\n    \"textAlignment\" : 0,\n    \"textVerticalAlignment\" : 0\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 2310}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 30}\",\n  \"identifier\" : \"C60512DD-25C1-4DE2-859B-125BC3219BAA\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"6.3 Path tool\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,18.0\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 2238.5}\",\n  \"angle\" : 0,\n  \"size\" : \"{593, 62.5}\",\n  \"identifier\" : \"02C9F36D-D431-4EC4-B51F-1486EC521182\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_14\",\n  \"value\" : \"The Pencil tool is used to draw hand-drawn lines. Click the Pencil Tool button from the toolbar and drag the mouse over the canvas to draw.\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"PingFangSC-Regular,14.0\",\n    \"textVerticalAlignment\" : 0\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 2211}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 30}\",\n  \"identifier\" : \"11F7F1C2-7ADA-428E-BF4E-29B38DB4C077\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_26\",\n  \"value\" : \"6.2 Pencil tool\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,18.0\",\n    \"textAlignment\" : 0\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"image\",\n  \"position\" : \"{249, 2209}\",\n  \"angle\" : 0,\n  \"size\" : \"{41, 34}\",\n  \"identifier\" : \"243ECCC8-608F-4B78-A2A4-ABAE89EF5723\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_11\",\n  \"privateStyle\" : {\n    \"textVerticalAlignment\" : 0\n  },\n  \"image\" : \"8deqlmo7\",\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"image\",\n  \"position\" : \"{249, 2310}\",\n  \"angle\" : 0,\n  \"size\" : \"{39, 30}\",\n  \"identifier\" : \"11D22801-D58E-4E6E-8D5A-0EC7010E166D\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_11\",\n  \"privateStyle\" : {\n    \"textVerticalAlignment\" : 0\n  },\n  \"image\" : \"bpy3rkqe\",\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"text\",\n  \"position\" : \"{115, 1985}\",\n  \"angle\" : 0,\n  \"size\" : \"{395, 35}\",\n  \"identifier\" : \"A732EA48-C4B3-425E-B8FA-0D38CD28C181\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_17\",\n  \"value\" : \"6. Tools\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,24.0\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"software-send\",\n  \"position\" : \"{185.0546875, -813.41015625}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"430595EE-F070-4E6E-979D-A06ABAAFD504\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_1\",\n  \"value\" : \"Z-shield\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"advanced:rounded-rect\",\n  \"position\" : \"{490, -749.5390625}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"DC3DA7D2-0E21-4E44-9897-C4099BCCC1AA\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"Pyramid\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{490, -714.5390625}\",\n  \"identifier\" : \"4D3A3C37-79F3-4D7C-9DDF-B32B6D90D7DA\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{235.0546875, -778.41015625}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"advanced:rounded-rect\",\n  \"position\" : \"{491.30078125, -601.75}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"25F87962-EAF9-4B31-B105-24C951306018\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"New York\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{491.30078125, -566.75}\",\n  \"identifier\" : \"06E49489-68BF-4387-B9B4-73125DF28D34\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{235.0546875, -778.41015625}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0}\"\n  }\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"hexgon\",\n  \"position\" : \"{348.3984375, -864.83203125}\",\n  \"angle\" : 0,\n  \"size\" : \"{122.72265625, 63.5}\",\n  \"identifier\" : \"0DA731DD-C4F9-49EF-8A3C-0E3A2F9FF916\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"Marcelotine Choke\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{348.3984375, -833.08203125}\",\n  \"value\" : {\n    \"labels\" : [\n      {\n        \"string\" : \"Lean into you\",\n        \"offset\" : \"{0, 0}\",\n        \"position\" : 0.64800525762975669,\n        \"positionType\" : 0\n      }\n    ]\n  },\n  \"identifier\" : \"45B71F2C-2B34-4C84-804D-A8B64D1DB567\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"privateStyle\" : {\n    \"textColor\" : \"#FFFFFFFF\",\n    \"textAlignment\" : 2,\n    \"textVerticalAlignment\" : 1,\n    \"textBackgroundColor\" : \"#333333FF\",\n    \"font\" : \"Helvetica,12.0\",\n    \"crossStyle\" : \"round\"\n  },\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{235.0546875, -778.41015625}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"fiveStar\",\n  \"position\" : \"{471.12109375, -947.09765625}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 100}\",\n  \"identifier\" : \"4E860548-FD35-45B6-B190-B5E5F7BB9BE1\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"Win\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{479.59765625, -909.50390625}\",\n  \"value\" : {\n    \"labels\" : [\n      {\n        \"string\" : \"Tap\",\n        \"offset\" : \"{0, 0}\",\n        \"position\" : 0.40893137352326886,\n        \"positionType\" : 0\n      }\n    ]\n  },\n  \"identifier\" : \"83DEAA0A-945F-4C75-B2D0-B030B2603F92\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"privateStyle\" : {\n    \"textColor\" : \"#FFFFFFFF\",\n    \"textAlignment\" : 2,\n    \"textVerticalAlignment\" : 1,\n    \"textBackgroundColor\" : \"#333333FF\",\n    \"font\" : \"Helvetica,12.0\",\n    \"crossStyle\" : \"round\"\n  },\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.41523437499999999, -0.12406250000000001}\"\n  },\n  \"sourcePoint\" : \"{409.759765625, -864.83203125}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, -0.5}\"\n  }\n}"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n    {\n      \"point\" : \"{409.759765625, -757.935546875}\",\n      \"axis\" : 2\n    },\n    {\n      \"point\" : \"{449.8798828125, -714.5390625}\",\n      \"axis\" : 1\n    }\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{490, -714.5390625}\",\n  \"value\" : {\n    \"labels\" : [\n      {\n        \"string\" : \"Escape \\\/ Not working\",\n        \"offset\" : \"{0, 0}\",\n        \"position\" : 0.24300005357156876,\n        \"positionType\" : 0\n      }\n    ]\n  },\n  \"identifier\" : \"0BB6A7A8-EFC3-4922-8288-555F2B1547A5\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"privateStyle\" : {\n    \"textColor\" : \"#FFFFFFFF\",\n    \"textAlignment\" : 2,\n    \"textVerticalAlignment\" : 1,\n    \"textBackgroundColor\" : \"#333333FF\",\n    \"font\" : \"Helvetica,12.0\",\n    \"crossStyle\" : \"round\"\n  },\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{409.759765625, -801.33203125}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0.5}\"\n  }\n}"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{491.30078125, -566.75}\",\n  \"value\" : {\n    \"labels\" : [\n      {\n        \"string\" : \"Escape \\\/ Not working\",\n        \"offset\" : \"{0, 0}\",\n        \"position\" : 0.50993727603677097,\n        \"positionType\" : 0\n      }\n    ]\n  },\n  \"identifier\" : \"381F0C1E-B94A-4CF2-9D59-5093B6FD088C\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"privateStyle\" : {\n    \"textColor\" : \"#FFFFFFFF\",\n    \"textAlignment\" : 2,\n    \"textVerticalAlignment\" : 1,\n    \"textBackgroundColor\" : \"#333333FF\",\n    \"font\" : \"Helvetica,12.0\",\n    \"crossStyle\" : \"round\"\n  },\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{409.759765625, -801.33203125}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0.5}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"hexgon\",\n  \"position\" : \"{708.685546875, -833.08203125}\",\n  \"angle\" : 0,\n  \"size\" : \"{122.72265625, 63.5}\",\n  \"identifier\" : \"B8474FF9-FB2B-4032-86FE-EE06AC5D8D09\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"Triangle\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"hexgon\",\n  \"position\" : \"{733.845703125, -729.5}\",\n  \"angle\" : 0,\n  \"size\" : \"{122.72265625, 63.5}\",\n  \"identifier\" : \"AE853251-B52F-4164-AAEF-2E51353C4839\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"Hazelet \",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{708.685546875, -801.33203125}\",\n  \"value\" : {\n    \"labels\" : [\n      {\n        \"string\" : \"Get leg around arm\",\n        \"offset\" : \"{0, 0}\",\n        \"position\" : 0.64583781316594335,\n        \"positionType\" : 0\n      }\n    ]\n  },\n  \"identifier\" : \"49071594-9DE5-40E8-850D-49391A0AA36D\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"privateStyle\" : {\n    \"textColor\" : \"#FFFFFFFF\",\n    \"textAlignment\" : 2,\n    \"textVerticalAlignment\" : 1,\n    \"textBackgroundColor\" : \"#333333FF\",\n    \"font\" : \"Helvetica,12.0\",\n    \"crossStyle\" : \"round\"\n  },\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{540, -749.5390625}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, -0.5}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{733.845703125, -697.75}\",\n  \"value\" : {\n    \"labels\" : [\n      {\n        \"string\" : \"They turn away\",\n        \"offset\" : \"{0, 0}\",\n        \"position\" : 0.56334969340108376,\n        \"positionType\" : 0\n      }\n    ]\n  },\n  \"identifier\" : \"946F56EE-72E9-4609-ADFE-B1887541C2AD\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"privateStyle\" : {\n    \"textColor\" : \"#FFFFFFFF\",\n    \"textAlignment\" : 2,\n    \"textVerticalAlignment\" : 1,\n    \"textBackgroundColor\" : \"#333333FF\",\n    \"font\" : \"Helvetica,12.0\",\n    \"crossStyle\" : \"round\"\n  },\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{590, -714.5390625}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.5, 0}\"\n  }\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"queueData\",\n  \"position\" : \"{826.416015625, -650.046875}\",\n  \"angle\" : 0,\n  \"size\" : \"{77.6328125, 72.5234375}\",\n  \"identifier\" : \"7E4FFAC1-32F6-41AA-9B77-4E598AB16451\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"Roll\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{837.525390625, -614.00390625}\",\n  \"identifier\" : \"CB08007C-B610-48A6-81C8-68094DFDDA0A\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.35689846029988931, -0.0030162662932241733}\"\n  },\n  \"sourcePoint\" : \"{540, -679.5390625}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0.5}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{795.20703125, -729.5}\",\n  \"value\" : {\n    \"labels\" : [\n      {\n        \"string\" : \"Turn away\",\n        \"offset\" : \"{0, 0}\",\n        \"position\" : 0.71997287695343826,\n        \"positionType\" : 0\n      }\n    ]\n  },\n  \"identifier\" : \"2913F908-C7AF-4DEE-B6D0-3268B4CF3566\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"privateStyle\" : {\n    \"textColor\" : \"#FFFFFFFF\",\n    \"textAlignment\" : 2,\n    \"textVerticalAlignment\" : 1,\n    \"textBackgroundColor\" : \"#333333FF\",\n    \"font\" : \"Helvetica,12.0\",\n    \"crossStyle\" : \"round\"\n  },\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, -0.5}\"\n  },\n  \"sourcePoint\" : \"{770.046875, -769.58203125}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0.5}\"\n  }\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"fiveStar\",\n  \"position\" : \"{815.232421875, -939.72265625}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 100}\",\n  \"identifier\" : \"03F9FB6A-4891-4C55-89D1-C769908A9A2D\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"Win\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{817.67959606024237, -905.17350596874735}\",\n  \"value\" : {\n    \"labels\" : [\n      {\n        \"string\" : \"Tap\",\n        \"offset\" : \"{0, 0}\",\n        \"position\" : 0.40162760559365879,\n        \"positionType\" : 0\n      }\n    ]\n  },\n  \"identifier\" : \"4C9557A2-846F-43D1-90E6-CF6CF3C4044A\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"privateStyle\" : {\n    \"textColor\" : \"#FFFFFFFF\",\n    \"textAlignment\" : 2,\n    \"textVerticalAlignment\" : 1,\n    \"textBackgroundColor\" : \"#333333FF\",\n    \"font\" : \"Helvetica,12.0\",\n    \"crossStyle\" : \"round\"\n  },\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.47552825814757677, -0.1545084971874737}\"\n  },\n  \"sourcePoint\" : \"{770.046875, -833.08203125}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, -0.5}\"\n  }\n}"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{865.232421875, -864.72265625}\",\n  \"value\" : {\n    \"labels\" : [\n      {\n        \"string\" : \"Tap\",\n        \"offset\" : \"{0, 0}\",\n        \"position\" : 0.60962006394044066,\n        \"positionType\" : 0\n      }\n    ]\n  },\n  \"identifier\" : \"9F30751E-44BA-4E0A-B70F-8855AE4375C7\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"privateStyle\" : {\n    \"textColor\" : \"#FFFFFFFF\",\n    \"textAlignment\" : 2,\n    \"textVerticalAlignment\" : 1,\n    \"textBackgroundColor\" : \"#333333FF\",\n    \"font\" : \"Helvetica,12.0\",\n    \"crossStyle\" : \"round\"\n  },\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0.25}\"\n  },\n  \"sourcePoint\" : \"{856.568359375, -697.75}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.5, 0}\"\n  }\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"flow\",\n  \"position\" : \"{963.52378275423803, -648.78515625}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"1AC34BFA-0920-47D9-94C8-E55C0761751E\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"Spiderweb\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{963.52378275423803, -613.78515625}\",\n  \"identifier\" : \"3695B5DA-835B-4F07-A281-3897F2286B38\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{904.048828125, -613.78515625}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.5, 0}\"\n  }\n}"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{708.685546875, -801.33203125}\",\n  \"identifier\" : \"D4094849-A0A8-4EB9-B308-86182464A3D8\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{591.30078125, -566.75}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.5, 0}\"\n  }\n}"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{733.845703125, -697.75}\",\n  \"identifier\" : \"FCCAAF68-BC9A-4508-BF02-C42463824D49\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{541.30078125, -531.75}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0.5}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{826.416015625, -613.78515625}\",\n  \"identifier\" : \"D348B210-7806-49F0-843C-07DAA1462D27\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{-0.5, 0}\"\n  },\n  \"sourcePoint\" : \"{541.30078125, -601.75}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, -0.5}\"\n  }\n}",
+      "class" : "connector"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"software-send\",\n  \"position\" : \"{135.0546875, -1375.5783706661198}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"73F39448-5488-4EA1-B432-58932DC13C79\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_1\",\n  \"value\" : \"Start\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 0,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"hexgon\",\n  \"position\" : \"{295.99872621362351, -1375.5783706661198}\",\n  \"angle\" : 0,\n  \"size\" : \"{122.72265625, 63.5}\",\n  \"identifier\" : \"648268AD-447E-4360-83D9-A8134940F9FF\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"Submission Attept\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"fiveStar\",\n  \"position\" : \"{461.691301441517, -1399.8149201658368}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 100}\",\n  \"identifier\" : \"99F9D44D-8A72-41F0-9795-304AB55F3B78\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"Win\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"advanced:rounded-rect\",\n  \"position\" : \"{135.0546875, -1271.7161414280331}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"70FB6ECA-1793-485A-BCBD-1A399C6B6A3E\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"Position\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"queueData\",\n  \"position\" : \"{304.25336283082731, -1285.9372085019618}\",\n  \"angle\" : 0,\n  \"size\" : \"{105.50640279417267, 98.442134147857132}\",\n  \"identifier\" : \"808CBDB8-C516-48E4-8C80-FA67931BA411\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"Tranisition \\\/ Sweep\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}",
+      "class" : "dia-node"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"flow\",\n  \"position\" : \"{461.691301441517, -1271.7161414280331}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"41352426-8D7D-4820-8958-4B91112F9627\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"Position | Next Flow\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"subFlow\",\n  \"position\" : \"{135.0546875, -1171.1034540616404}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 70}\",\n  \"identifier\" : \"1F4E1606-20A6-4002-AC10-75548144D418\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"Opponent Move\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"merge\",\n  \"position\" : \"{304.25336283082731, -1165.4122533251534}\",\n  \"angle\" : 0,\n  \"size\" : \"{100, 100}\",\n  \"identifier\" : \"368F20CE-B828-4F0F-B7B8-40980CE03811\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_2\",\n  \"value\" : \"Take Down\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#FFFFFFFF\"\n  },\n  \"isRelative\" : false\n}"
+    }
+  ],
+  "frame" : [
+    [
+      0,
+      -1938
+    ],
+    [
+      1510,
+      5045
+    ]
+  ],
+  "terminals" : {
+    "946F56EE-72E9-4609-ADFE-B1887541C2AD" : [
+      "DC3DA7D2-0E21-4E44-9897-C4099BCCC1AA",
+      "AE853251-B52F-4164-AAEF-2E51353C4839"
+    ],
+    "ECA703F5-8BE5-41EB-9CD0-0E90BBC6C651" : [
+      "2E87249C-BC1C-4064-BD5C-0E2DC65CD418",
+      "9DEA7B2C-CF40-42F0-A1C6-C7E68D0FCA11"
+    ],
+    "FCCAAF68-BC9A-4508-BF02-C42463824D49" : [
+      "25F87962-EAF9-4B31-B105-24C951306018",
+      "AE853251-B52F-4164-AAEF-2E51353C4839"
+    ],
+    "381F0C1E-B94A-4CF2-9D59-5093B6FD088C" : [
+      "0DA731DD-C4F9-49EF-8A3C-0E3A2F9FF916",
+      "25F87962-EAF9-4B31-B105-24C951306018"
+    ],
+    "2913F908-C7AF-4DEE-B6D0-3268B4CF3566" : [
+      "B8474FF9-FB2B-4032-86FE-EE06AC5D8D09",
+      "AE853251-B52F-4164-AAEF-2E51353C4839"
+    ],
+    "06E49489-68BF-4387-B9B4-73125DF28D34" : [
+      "430595EE-F070-4E6E-979D-A06ABAAFD504",
+      "25F87962-EAF9-4B31-B105-24C951306018"
+    ],
+    "13406581-408D-475D-A7C1-61C7137FCAEA" : [
+      "17E140F7-06F0-47DE-AF0E-853308E64DFE",
+      "2E7BAC19-B836-49DF-9D5B-D8990CE417A7"
+    ],
+    "49071594-9DE5-40E8-850D-49391A0AA36D" : [
+      "DC3DA7D2-0E21-4E44-9897-C4099BCCC1AA",
+      "B8474FF9-FB2B-4032-86FE-EE06AC5D8D09"
+    ],
+    "83DEAA0A-945F-4C75-B2D0-B030B2603F92" : [
+      "0DA731DD-C4F9-49EF-8A3C-0E3A2F9FF916",
+      "4E860548-FD35-45B6-B190-B5E5F7BB9BE1"
+    ],
+    "A85CAE56-3E50-45C1-8EA7-22FEEAC6AA7E" : [
+      "E2B93F48-F4EC-4A3B-8CA4-24E01E2F9F29",
+      "34C97491-4768-4420-ABB0-E77B7E71B42F"
+    ],
+    "9F30751E-44BA-4E0A-B70F-8855AE4375C7" : [
+      "AE853251-B52F-4164-AAEF-2E51353C4839",
+      "03F9FB6A-4891-4C55-89D1-C769908A9A2D"
+    ],
+    "45B71F2C-2B34-4C84-804D-A8B64D1DB567" : [
+      "430595EE-F070-4E6E-979D-A06ABAAFD504",
+      "0DA731DD-C4F9-49EF-8A3C-0E3A2F9FF916"
+    ],
+    "A7B4BAC8-427C-4931-B809-32C81A47D501" : [
+      "E9920B9C-CED2-41F4-87B9-46375B739CF3",
+      "611B5302-C85E-43A7-8629-8A815C5E8776"
+    ],
+    "4C9557A2-846F-43D1-90E6-CF6CF3C4044A" : [
+      "B8474FF9-FB2B-4032-86FE-EE06AC5D8D09",
+      "03F9FB6A-4891-4C55-89D1-C769908A9A2D"
+    ],
+    "D348B210-7806-49F0-843C-07DAA1462D27" : [
+      "25F87962-EAF9-4B31-B105-24C951306018",
+      "7E4FFAC1-32F6-41AA-9B77-4E598AB16451"
+    ],
+    "4D3A3C37-79F3-4D7C-9DDF-B32B6D90D7DA" : [
+      "430595EE-F070-4E6E-979D-A06ABAAFD504",
+      "DC3DA7D2-0E21-4E44-9897-C4099BCCC1AA"
+    ],
+    "0BB6A7A8-EFC3-4922-8288-555F2B1547A5" : [
+      "0DA731DD-C4F9-49EF-8A3C-0E3A2F9FF916",
+      "DC3DA7D2-0E21-4E44-9897-C4099BCCC1AA"
+    ],
+    "CB08007C-B610-48A6-81C8-68094DFDDA0A" : [
+      "DC3DA7D2-0E21-4E44-9897-C4099BCCC1AA",
+      "7E4FFAC1-32F6-41AA-9B77-4E598AB16451"
+    ],
+    "3695B5DA-835B-4F07-A281-3897F2286B38" : [
+      "7E4FFAC1-32F6-41AA-9B77-4E598AB16451",
+      "1AC34BFA-0920-47D9-94C8-E55C0761751E"
+    ],
+    "D4094849-A0A8-4EB9-B308-86182464A3D8" : [
+      "25F87962-EAF9-4B31-B105-24C951306018",
+      "B8474FF9-FB2B-4032-86FE-EE06AC5D8D09"
+    ]
+  },
+  "design" : {
+    "connectorPathStyle" : "rounded",
+    "themeName" : "dark3",
+    "paper" : {
+      "rightMargin" : 72,
+      "bottomMargin" : 100,
+      "topMargin" : 100,
+      "name" : "a4",
+      "leftMargin" : 72,
+      "ori" : true
+    },
+    "autoFrame" : true,
+    "showPageMarker" : true
+  },
+  "showsGrids" : false,
+  "version" : "100"
+}
