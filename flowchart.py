@@ -79,25 +79,25 @@ for node in got_net.nodes:
                 node["value"] = len(neighbor_map[node["id"]])
 
 #got_net.show("10thPlanetSystem.html")
-got_net.save_graph('10thPlanetSystem.html')
+got_net.save_graph('index.html')
 
 # Save and read graph as HTML file (on Streamlit Sharing)
-try:
-	print('shared')
-	path = '/tmp'
-	got_net.save_graph(f'{path}/10thPlanetSystem.html')
-	HtmlFile = open(f'{path}/10thPlanetSystem.html','r',encoding='utf-8')
-	# Save and read graph as HTML file (locally)
-except:
-	print('local')
-	path = '.'
-	got_net.generate_html('10thPlanetSystem.html')
-	HtmlFile = open('10thPlanetSystem.html','r',encoding='utf-8')
+# try:
+# 	print('shared')
+# 	path = '/tmp'
+# 	got_net.save_graph(f'{path}/10thPlanetSystem.html')
+# 	HtmlFile = open(f'{path}/10thPlanetSystem.html','r',encoding='utf-8')
+# 	# Save and read graph as HTML file (locally)
+# except:
+# 	print('local')
+# 	path = '.'
+# 	got_net.generate_html('10thPlanetSystem.html')
+# 	HtmlFile = open('10thPlanetSystem.html','r',encoding='utf-8')
 
 
-# Load HTML into HTML component for display on Streamlit
-#print(HtmlFile.read())
-components.html(HtmlFile.read(), height=1000, width=10000)
+# # Load HTML into HTML component for display on Streamlit
+# #print(HtmlFile.read())
+# components.html(HtmlFile.read(), height=1000, width=10000)
 
 
 
