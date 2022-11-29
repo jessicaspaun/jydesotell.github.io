@@ -8,7 +8,7 @@ from pyvis.network import Network
 
 
 st.title('10th Planet System')
-got_net = Network(height="1000px",width='2000px', bgcolor="#222222", font_color="white", select_menu=True)
+got_net = Network(height="1000px",width='1500px', bgcolor="#222222", font_color="white", select_menu=True)
 
 # set the physics layout of the network
 type_dict = {'Positional':'dot', 'Transition':'diamond','Submission':'star','Sweep':'square','Escape':'triangle'} 
