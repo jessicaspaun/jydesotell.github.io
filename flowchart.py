@@ -25,7 +25,7 @@ targets = got_data['Target']
 
 edge_data = zip(sources, targets)
 
-got_net.add_node(0, shape='image', image ="10pStPete.png")
+got_net.add_node(0, shape='image', image ="10pStPete.png", x=50, y=50)
 
 for e in edge_data:
 
