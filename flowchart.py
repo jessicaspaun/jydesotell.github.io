@@ -8,7 +8,7 @@ from pyvis.network import Network
 
 
 st.title('10th Planet System')
-got_net = Network(height="40%",width='100%', bgcolor="#222222", font_color="white", select_menu=True)
+got_net = Network(height="500",width='100%', bgcolor="#222222", font_color="white", select_menu=True)
 
 # set the physics layout of the network
 type_dict = {'Positional':'dot', 'Transition':'diamond','Submission':'star','Sweep':'square','Escape':'triangle'} 
@@ -25,7 +25,6 @@ targets = got_data['Target']
 
 edge_data = zip(sources, targets)
 
-got_net.add_node(0,title='logo',value=1, shape='image', image ="10pStPete.png", x=500, y=500, size=100)
 
 for e in edge_data:
 
@@ -49,9 +48,9 @@ for e in edge_data:
 neighbor_map = got_net.get_adj_list()
 
 # Generate network with specific layout settings
-got_net.repulsion(node_distance=420, central_gravity=0.33,
-                   spring_length=110, spring_strength=0.10,
-                   damping=0.95)
+# got_net.repulsion(node_distance=420, central_gravity=0.33,
+#                    spring_length=110, spring_strength=0.10,
+#                    damping=0.95)
 
 # step = 50
 # x = -300
@@ -77,12 +76,10 @@ got_net.repulsion(node_distance=420, central_gravity=0.33,
 
 # add neighbor data to node hover data
 for node in got_net.nodes:
-	try:
-		node["title"] += " Neighbors:<br>" + "<br>".join(neighbor_map[node["id"]])
-		node["value"] = len(neighbor_map[node["id"]])
-	except:
-		node['title'] += 'logo'
-		node['value'] = 1
+
+	node["title"] += " Neighbors:<br>" + "<br>".join(neighbor_map[node["id"]])
+	node["value"] = len(neighbor_map[node["id"]])
+
 
 #got_net.show("10thPlanetSystem.html")
 got_net.save_graph('index.html')
