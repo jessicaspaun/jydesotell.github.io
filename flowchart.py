@@ -25,6 +25,8 @@ targets = got_data['Target']
 
 edge_data = zip(sources, targets)
 
+got_net.add_node(0, shape='image', image ="10pStPete.png")
+
 for e in edge_data:
 
 
@@ -75,8 +77,11 @@ got_net.repulsion(node_distance=420, central_gravity=0.33,
 
 # add neighbor data to node hover data
 for node in got_net.nodes:
-                node["title"] += " Neighbors:<br>" + "<br>".join(neighbor_map[node["id"]])
-                node["value"] = len(neighbor_map[node["id"]])
+	try:
+		node["title"] += " Neighbors:<br>" + "<br>".join(neighbor_map[node["id"]])
+		node["value"] = len(neighbor_map[node["id"]])
+	except:
+		print(node)
 
 #got_net.show("10thPlanetSystem.html")
 got_net.save_graph('index.html')
