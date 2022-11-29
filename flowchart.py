@@ -8,11 +8,11 @@ from pyvis.network import Network
 
 
 st.title('10th Planet System')
-got_net = Network(height="1000px",width='1000px', bgcolor="#222222", font_color="white", select_menu=True)
+got_net = Network(height="1000px",width='2000px', bgcolor="#222222", font_color="white", select_menu=True)
 
 # set the physics layout of the network
 type_dict = {'Positional':'dot', 'Transition':'diamond','Submission':'star','Sweep':'square','Escape':'triangle'} 
-system_dict = {'Lockdown':'red','Open Guard':'blue','Mount':'white','Rubber Guard':'purple','Bottom Mount':'teal', 'Back Mount':'gray','Truck':'gold', 'Side Mount':'green', 'Spiderweb':'pink'}
+system_dict = {'Lockdown':'red','Open Guard':'blue','Mount':'white','Rubber Guard':'purple','Bottom Mount':'teal', 'Back Mount':'gray','Truck':'gold', 'Side Mount':'green', 'Spiderweb':'fuschsia','X Gurard':'cyan','Leg Entanglements':'salmon','Reverse Spiderweb':'orange'}
 got_data = pd.read_csv("moves_flow.csv")
 technique_db = pd.read_csv('technique_db.csv')
 technique_db = technique_db.set_index('Technique')
