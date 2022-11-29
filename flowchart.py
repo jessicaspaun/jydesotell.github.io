@@ -8,7 +8,7 @@ from pyvis.network import Network
 
 
 st.title('10th Planet System')
-got_net = Network(height="100px",width='100%', bgcolor="#222222", font_color="white", select_menu=True)
+got_net = Network(height="30%",width='100%', bgcolor="#222222", font_color="white", select_menu=True)
 
 # set the physics layout of the network
 type_dict = {'Positional':'dot', 'Transition':'diamond','Submission':'star','Sweep':'square','Escape':'triangle'} 
@@ -25,7 +25,7 @@ targets = got_data['Target']
 
 edge_data = zip(sources, targets)
 
-got_net.add_node(0, shape='image', image ="10pStPete.png", x=50, y=50, size=100)
+got_net.add_node(0,title='logo',value=1, shape='image', image ="10pStPete.png", x=500, y=500, size=100)
 
 for e in edge_data:
 
