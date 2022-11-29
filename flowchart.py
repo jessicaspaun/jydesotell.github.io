@@ -81,7 +81,8 @@ for node in got_net.nodes:
 		node["title"] += " Neighbors:<br>" + "<br>".join(neighbor_map[node["id"]])
 		node["value"] = len(neighbor_map[node["id"]])
 	except:
-		print(node)
+		node['title'] += 'logo'
+		node['value'] = 1
 
 #got_net.show("10thPlanetSystem.html")
 got_net.save_graph('index.html')
