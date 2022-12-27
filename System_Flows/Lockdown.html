@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 100%;
+                 background-color: black;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "red", "font": {"color": "white"}, "id": "5.0 Sweep", "label": "5.0 Sweep", "shape": "square", "title": "5.0 Sweep Neighbors:\u003cbr\u003eElectric Underhooks\u003cbr\u003eJudo Side", "value": 2}, {"color": "green", "font": {"color": "white"}, "id": "Judo Side", "label": "Judo Side", "shape": "dot", "title": "Judo Side Neighbors:\u003cbr\u003eBoa\u003cbr\u003e5.0 Sweep\u003cbr\u003eHalf \u0026 Half\u003cbr\u003eElectric Chair\u003cbr\u003eOld School\u003cbr\u003ePlan B", "value": 6}, {"color": "red", "font": {"color": "white"}, "id": "Apollo Choke", "label": "Apollo Choke", "shape": "star", "title": "Apollo Choke Neighbors:\u003cbr\u003eOver Unders\u003cbr\u003eApollo Sweep", "value": 2}, {"color": "red", "font": {"color": "white"}, "id": "Apollo Sweep", "label": "Apollo Sweep", "shape": "square", "title": "Apollo Sweep Neighbors:\u003cbr\u003eHead \u0026 Arm\u003cbr\u003eApollo Choke", "value": 2}, {"color": "red", "font": {"color": "white"}, "id": "Boa", "label": "Boa", "shape": "square", "title": "Boa Neighbors:\u003cbr\u003eJudo Side\u003cbr\u003eDogfight", "value": 2}, {"color": "red", "font": {"color": "white"}, "id": "Dogfight", "label": "Dogfight", "shape": "dot", "title": "Dogfight Neighbors:\u003cbr\u003eBoa\u003cbr\u003eDouble Unders\u003cbr\u003eBack\u003cbr\u003eHalf \u0026 Half\u003cbr\u003eLimp Arm\u003cbr\u003ePowder Keg\u003cbr\u003ePlan B", "value": 7}, {"color": "gray", "font": {"color": "white"}, "id": "Back", "label": "Back", "shape": "dot", "title": "Back Neighbors:\u003cbr\u003eLimp Arm\u003cbr\u003eDogfight", "value": 2}, {"color": "red", "font": {"color": "white"}, "id": "Half \u0026 Half", "label": "Half \u0026 Half", "shape": "square", "title": "Half \u0026 Half Neighbors:\u003cbr\u003eJudo Side\u003cbr\u003eDogfight", "value": 2}, {"color": "red", "font": {"color": "white"}, "id": "Plan B", "label": "Plan B", "shape": "square", "title": "Plan B Neighbors:\u003cbr\u003eJudo Side\u003cbr\u003eDogfight", "value": 2}, {"color": "red", "font": {"color": "white"}, "id": "Powder Keg", "label": "Powder Keg", "shape": "diamond", "title": "Powder Keg Neighbors:\u003cbr\u003eTriangle\u003cbr\u003eDogfight", "value": 2}, {"color": "red", "font": {"color": "white"}, "id": "Limp Arm", "label": "Limp Arm", "shape": "diamond", "title": "Limp Arm Neighbors:\u003cbr\u003eBack\u003cbr\u003eDogfight", "value": 2}, {"color": "red", "font": {"color": "white"}, "id": "Double Unders", "label": "Double Unders", "shape": "dot", "title": "Double Unders Neighbors:\u003cbr\u003eElectric Underhooks\u003cbr\u003eJaws of Life\u003cbr\u003eWhip Up\u003cbr\u003eDogfight", "value": 4}, {"color": "red", "font": {"color": "white"}, "id": "Electric Underhooks", "label": "Electric Underhooks", "shape": "dot", "title": "Electric Underhooks Neighbors:\u003cbr\u003eDouble Unders\u003cbr\u003e5.0 Sweep\u003cbr\u003eStoner Control\u003cbr\u003eElectric Chair\u003cbr\u003eOld School", "value": 5}, {"color": "red", "font": {"color": "white"}, "id": "Electric Chair", "label": "Electric Chair", "shape": "square", "title": "Electric Chair Neighbors:\u003cbr\u003eElectric Underhooks\u003cbr\u003eJudo Side", "value": 2}, {"color": "red", "font": {"color": "white"}, "id": "Old School", "label": "Old School", "shape": "square", "title": "Old School Neighbors:\u003cbr\u003eElectric Underhooks\u003cbr\u003eJudo Side", "value": 2}, {"color": "red", "font": {"color": "white"}, "id": "Stoner Control", "label": "Stoner Control", "shape": "dot", "title": "Stoner Control Neighbors:\u003cbr\u003eElectric Underhooks\u003cbr\u003eVaporizer\u003cbr\u003eBubbler", "value": 3}, {"color": "red", "font": {"color": "white"}, "id": "Jaws of Life", "label": "Jaws of Life", "shape": "dot", "title": "Jaws of Life Neighbors:\u003cbr\u003eOver Unders\u003cbr\u003eDouble Unders", "value": 2}, {"color": "purple", "font": {"color": "white"}, "id": "Triangle", "label": "Triangle", "shape": "star", "title": "Triangle Neighbors:\u003cbr\u003ePowder Keg", "value": 1}, {"color": "red", "font": {"color": "white"}, "id": "Vaporizer", "label": "Vaporizer", "shape": "star", "title": "Vaporizer Neighbors:\u003cbr\u003eStoner Control", "value": 1}, {"color": "red", "font": {"color": "white"}, "id": "Bubbler", "label": "Bubbler", "shape": "star", "title": "Bubbler Neighbors:\u003cbr\u003eStoner Control", "value": 1}, {"color": "red", "font": {"color": "white"}, "id": "Super Stomp", "label": "Super Stomp", "shape": "diamond", "title": "Super Stomp Neighbors:\u003cbr\u003eOver Unders\u003cbr\u003eCocoon", "value": 2}, {"color": "blue", "font": {"color": "white"}, "id": "Cocoon", "label": "Cocoon", "shape": "dot", "title": "Cocoon Neighbors:\u003cbr\u003eSuper Stomp", "value": 1}, {"color": "red", "font": {"color": "white"}, "id": "Whip Down", "label": "Whip Down", "shape": "dot", "title": "Whip Down Neighbors:\u003cbr\u003eOver Unders\u003cbr\u003eWhip Up", "value": 2}, {"color": "red", "font": {"color": "white"}, "id": "Whip Up", "label": "Whip Up", "shape": "dot", "title": "Whip Up Neighbors:\u003cbr\u003eWhip Down\u003cbr\u003eDouble Unders", "value": 2}, {"color": "red", "font": {"color": "white"}, "id": "Over Unders", "label": "Over Unders", "shape": "diamond", "title": "Over Unders Neighbors:\u003cbr\u003eWhip Down\u003cbr\u003eJaws of Life\u003cbr\u003eSuper Stomp\u003cbr\u003eContested Underhooks\u003cbr\u003eApollo Choke", "value": 5}, {"color": "red", "font": {"color": "white"}, "id": "Contested Underhooks", "label": "Contested Underhooks", "shape": "dot", "title": "Contested Underhooks Neighbors:\u003cbr\u003eOver Unders", "value": 1}, {"color": "white", "font": {"color": "white"}, "id": "Head \u0026 Arm", "label": "Head \u0026 Arm", "shape": "star", "title": "Head \u0026 Arm Neighbors:\u003cbr\u003eApollo Sweep", "value": 1}]);
+                  edges = new vis.DataSet([{"from": "5.0 Sweep", "to": "Judo Side"}, {"from": "Apollo Choke", "to": "Apollo Sweep"}, {"from": "Boa", "to": "Judo Side"}, {"from": "Dogfight", "to": "Back"}, {"from": "Dogfight", "to": "Boa"}, {"from": "Dogfight", "to": "Half \u0026 Half"}, {"from": "Dogfight", "to": "Plan B"}, {"from": "Dogfight", "to": "Powder Keg"}, {"from": "Dogfight", "to": "Limp Arm"}, {"from": "Double Unders", "to": "Dogfight"}, {"from": "Double Unders", "to": "Electric Underhooks"}, {"from": "Electric Chair", "to": "Judo Side"}, {"from": "Electric Underhooks", "to": "5.0 Sweep"}, {"from": "Electric Underhooks", "to": "Electric Chair"}, {"from": "Electric Underhooks", "to": "Old School"}, {"from": "Electric Underhooks", "to": "Stoner Control"}, {"from": "Half \u0026 Half", "to": "Judo Side"}, {"from": "Jaws of Life", "to": "Double Unders"}, {"from": "Old School", "to": "Judo Side"}, {"from": "Plan B", "to": "Judo Side"}, {"from": "Powder Keg", "to": "Triangle"}, {"from": "Stoner Control", "to": "Vaporizer"}, {"from": "Stoner Control", "to": "Bubbler"}, {"from": "Super Stomp", "to": "Cocoon"}, {"from": "Whip Down", "to": "Whip Up"}, {"from": "Whip Up", "to": "Double Unders"}, {"from": "Over Unders", "to": "Apollo Choke"}, {"from": "Over Unders", "to": "Contested Underhooks"}, {"from": "Over Unders", "to": "Jaws of Life"}, {"from": "Over Unders", "to": "Super Stomp"}, {"from": "Over Unders", "to": "Whip Down"}, {"from": "Apollo Sweep", "to": "Head \u0026 Arm"}, {"from": "Limp Arm", "to": "Back"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "repulsion": {
+            "centralGravity": 0.33,
+            "damping": 0.95,
+            "nodeDistance": 420,
+            "springConstant": 0.1,
+            "springLength": 110
+        },
+        "solver": "repulsion",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

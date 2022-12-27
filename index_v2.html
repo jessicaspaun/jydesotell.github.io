@@ -6,8 +6,8 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
             <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             
-                <link href="lib/tom-select/tom-select.css" rel="stylesheet">
-                <script src="lib/tom-select/tom-select.complete.min.js"></script>
+<!--                 <link href="lib/tom-select/tom-select.css" rel="stylesheet">
+                <script src="lib/tom-select/tom-select.complete.min.js"></script> -->
 
             
         
@@ -50,232 +50,21 @@
 
              
         </style>
-        <link rel="stylesheet" href="lib/css/styles.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
 
 
     <body>
-        <div class="card" style="width: 100%">
-            
-                <div id="select-menu" class="card-header">
-                    
-                    <div class="row no-gutters">
-                        <div id='logo' class="col-2 pb-2">
-                            <img src="10pStPete.png" alt="logo"width=100%
-                             height=100%>
-                         </div>
-                        <div class="col-8 pb-2">
-                            <select
-                            class="form-select"
-                            aria-label="Default select example"
-                            onchange="selectNode([value]);"
-                            id="select-node"
-                            placeholder="Select node..."
-                            >
-                                <option selected>Select a Node by ID</option>
-                                
-                                    <option value="Chill Dog">Chill Dog</option>
-                                
-                                    <option value="Invisible Collar">Invisible Collar</option>
-                                
-                                    <option value="Kung Fu Move">Kung Fu Move</option>
-                                
-                                    <option value="Clear the Head">Clear the Head</option>
-                                
-                                    <option value="Cocoon">Cocoon</option>
-                                
-                                    <option value="Jean Jacque Sweep">Jean Jacque Sweep</option>
-                                
-                                    <option value="Mission Control">Mission Control</option>
-                                
-                                    <option value="New Jersey">New Jersey</option>
-                                
-                                    <option value="New York">New York</option>
-                                
-                                    <option value="Pyramid">Pyramid</option>
-                                
-                                    <option value="Dogfight">Dogfight</option>
-                                
-                                    <option value="Back">Back</option>
-                                
-                                    <option value="Boa">Boa</option>
-                                
-                                    <option value="Half & Half">Half & Half</option>
-                                
-                                    <option value="Plan B">Plan B</option>
-                                
-                                    <option value="Powder Keg">Powder Keg</option>
-                                
-                                    <option value="Double Bag">Double Bag</option>
-                                
-                                    <option value="Double Unders">Double Unders</option>
-                                
-                                    <option value="Electric Underhooks">Electric Underhooks</option>
-                                
-                                    <option value="5.0 Sweep">5.0 Sweep</option>
-                                
-                                    <option value="Electric Chair">Electric Chair</option>
-                                
-                                    <option value="Old School">Old School</option>
-                                
-                                    <option value="Stoner Control">Stoner Control</option>
-                                
-                                    <option value="Fire & Flip">Fire & Flip</option>
-                                
-                                    <option value="Gogo Clinch">Gogo Clinch</option>
-                                
-                                    <option value="Gun Show">Gun Show</option>
-                                
-                                    <option value="Dead Orchard">Dead Orchard</option>
-                                
-                                    <option value="Jaws of Life">Jaws of Life</option>
-                                
-                                    <option value="3/4 Mount">3/4 Mount</option>
-                                
-                                    <option value="Crackhead">Crackhead</option>
-                                
-                                    <option value="Zombie">Zombie</option>
-                                
-                                    <option value="Meat Hook">Meat Hook</option>
-                                
-                                    <option value="New York Crackhead">New York Crackhead</option>
-                                
-                                    <option value="Stocks">Stocks</option>
-                                
-                                    <option value="Over Unders">Over Unders</option>
-                                
-                                    <option value="Apollo Choke">Apollo Choke</option>
-                                
-                                    <option value="Contested Underhooks">Contested Underhooks</option>
-                                
-                                    <option value="Super Stomp">Super Stomp</option>
-                                
-                                    <option value="Whip Down">Whip Down</option>
-                                
-                                    <option value="Vaporizer">Vaporizer</option>
-                                
-                                    <option value="Whip Up">Whip Up</option>
-                                
-                                    <option value="Jiu Claw">Jiu Claw</option>
-                                
-                                    <option value="Clip">Clip</option>
-                                
-                                    <option value="Clear Arm">Clear Arm</option>
-                                
-                                    <option value="Triangle">Triangle</option>
-                                
-                                    <option value="Apollo Sweep">Apollo Sweep</option>
-                                
-                                    <option value="Head & Arm">Head & Arm</option>
-                                
-                                    <option value="Carni">Carni</option>
-                                
-                                    <option value="Omoplata">Omoplata</option>
-                                
-                                    <option value="Hazelet">Hazelet</option>
-                                
-                                    <option value="Death from Below">Death from Below</option>
-                                
-                                    <option value="Bottom Mount">Bottom Mount</option>
-                                
-                                    <option value="Gitmo">Gitmo</option>
-                                
-                                    <option value="Alcatraz">Alcatraz</option>
-                                
-                                    <option value="Reverse Alcatraz">Reverse Alcatraz</option>
-                                
-                                    <option value="Escape from Alcatraz">Escape from Alcatraz</option>
-                                
-                                    <option value="Mount">Mount</option>
-                                
-                                    <option value="Baby Bolo">Baby Bolo</option>
-                                
-                                    <option value="Truck">Truck</option>
-                                
-                                    <option value="Seatbelt">Seatbelt</option>
-                                
-                                    <option value="RNC">RNC</option>
-                                
-                                    <option value="Buck">Buck</option>
-                                
-                                    <option value="Banana Split">Banana Split</option>
-                                
-                                    <option value="Calf Slicer">Calf Slicer</option>
-                                
-                                    <option value="Marsh">Marsh</option>
-                                
-                                    <option value="Bolt Cutter">Bolt Cutter</option>
-                                
-                                    <option value="Baseball Bat Grip">Baseball Bat Grip</option>
-                                
-                                    <option value="Thai Clinch">Thai Clinch</option>
-                                
-                                    <option value="Twister">Twister</option>
-                                
-                                    <option value="Gift Wrap">Gift Wrap</option>
-                                
-                                    <option value="High Mount">High Mount</option>
-                                
-                                    <option value="Valley">Valley</option>
-                                
-                                    <option value="Judo Side">Judo Side</option>
-                                
-                                    <option value="Twister Side">Twister Side</option>
-                                
-                                    <option value="Nessy">Nessy</option>
-                                
-                                    <option value="Fish Net">Fish Net</option>
-                                
-                                    <option value="Samurai Roll">Samurai Roll</option>
-                                
-                                    <option value="S-Mount">S-Mount</option>
-                                
-                                    <option value="Deep Hook">Deep Hook</option>
-                                
-                                    <option value="Spiderweb">Spiderweb</option>
-                                
-                                    <option value="Armbar">Armbar</option>
-                                
-                                    <option value="Mounted Triangle">Mounted Triangle</option>
-                                
-                                    <option value="Kimura Grip">Kimura Grip</option>
-                                
-                                    <option value="Armcrush">Armcrush</option>
-                                
-                                    <option value="Perfect Armbar">Perfect Armbar</option>
-                                
-                                    <option value="X-Break">X-Break</option>
-                                
-                                    <option value="Limp Arm">Limp Arm</option>
-                                
-                                    <option value="Single Leg X">Single Leg X</option>
-                                
-                                    <option value="Ashi Sweep">Ashi Sweep</option>
-                                
-                                    <option value="Ashi">Ashi</option>
-                                
-                                    <option value="Top Side Ashi">Top Side Ashi</option>
-                                
-                                    <option value="Reverse Spiderweb">Reverse Spiderweb</option>
-                                
-                                    <option value="Ultra Kimura">Ultra Kimura</option>
-                                
-                                    <option value="Outside X">Outside X</option>
-                                
-                                    <option value="X Guard">X Guard</option>
-                                
-                                    <option value="Overhook X">Overhook X</option>
-                                
-                                    <option value="Reverse X">Reverse X</option>
-                                
-                                    <option value="Electric X">Electric X</option>
-                                
-                                    <option value="Bubbler">Bubbler</option>
-                                
-                            </select>
-                             <div id="legend">
+  
+    
+        <div id='logo' class="col-2 pb-2">
+            <img src="10pStPete.png" alt="logo"width=100px
+             height=100px>
+         </div>
 
-                <button id='lockdown' type="button" class="btn btn-primary btn-block legend-btn" onclick="neighbourhoodHighlight({nodes: []});">Lockdown</button>
+        <div id="legend" class="col-8 pb-2">
+
+                <button id='lockdown' type="button" class="btn btn-primary btn-block legend-btn" onclick="System_Flows/Lockdown.html">Lockdown</button>
                 <button id='rubber_guard' type="button" class="btn btn-primary btn-block legend-btn" onclick="neighbourhoodHighlight({nodes: []});">Rubber Guard</button>
     
                 <button id= 'mount' type="button" class="btn btn-primary btn-block legend-btn" onclick="neighbourhoodHighlight({nodes: []});">Mount</button>
@@ -292,13 +81,13 @@
 
 
             </div>
-                        </div>
-                        <div class="col-2 pb-2">
-                            <button type="button" class="btn btn-primary btn-block" onclick="neighbourhoodHighlight({nodes: []});">Reset Selection</button>
-                        </div>
 
-                    </div>
-                </div>
+<!--                         <div class="col-2 pb-2">
+                            <button type="button" class="btn btn-primary btn-block" onclick="neighbourhoodHighlight({nodes: []});">Reset Selection</button>
+                        </div> -->
+
+<!--                     </div>
+                </div> -->
             
             
             <div id="mynetwork" class="card-body"></div>
@@ -327,13 +116,13 @@
               };
 
               
-                  new TomSelect("#select-node",{
-                      create: false,
-                      sortField: {
-                          field: "text",
-                          direction: "asc"
-                      }
-                  });
+                  // new TomSelect("#select-node",{
+                  //     create: false,
+                  //     sortField: {
+                  //         field: "text",
+                  //         direction: "asc"
+                  //     }
+                  // });
               
 
               
@@ -405,7 +194,7 @@
                   
 
                   
-                    network.on("selectNode", neighbourhoodHighlight);
+                    // network.on("selectNode", neighbourhoodHighlight);
                   
 
                   
