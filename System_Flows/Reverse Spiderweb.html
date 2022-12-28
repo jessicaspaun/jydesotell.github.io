@@ -46,10 +46,49 @@
 
              
         </style>
+    <link rel="stylesheet" href="../css/styles.css">
     </head>
 
 
     <body>
+        <div id='logo' class="col-2 pb-2">
+            <img src="../10pStPete.png" alt="logo"width=100px
+             height=100px>
+         </div>
+
+        <div id="legend" class="col-8 pb-2">
+                
+                <a id='lockdown' href='Lockdown.html' class='button'>Lockdown</a>
+
+
+
+                
+                <a id='rubber_guard' href='Rubber Guard.html' class='button'>Rubber Guard</a>
+    
+                <a id= 'mount' href='Mount.html' class='button'>Mount</a>
+
+                <a id='back' href='Back Mount.html' class='button'>Back</a>
+
+                <a id='leg_entanglements' href='Leg Entanglements.html' class='button'>Leg Entanglements</a>
+
+                <a id='side_mount' href='Side Mount.html' class='button'>Side Mount</a>
+
+                <a id='spiderweb' href='Spiderweb.html' class='button'>Spiderweb</a>
+
+                <a id='open_guard' href='Open Guard.html' class='button'>Open Guard</a>
+
+                <a id='bottom_mount' href='Bottom Mount.html' class='button'>Bottom Mount</a>
+
+                <a id='truck' href='Truck.html' class='button'>Truck</a>
+
+                <a id='x_guard' href='X Guard.html' class='button'>X Guard</a>
+
+                <a id='reverse_spiderweb' href='Reverse Spiderweb.html' class='button'>Reverse Spiderweb</a>
+
+                <a id='Reset' href='../index_v2.html' class='button'>Reset</a>
+
+
+            </div>
         <div class="card" style="width: 100%">
             
             
@@ -88,7 +127,7 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "orange", "font": {"color": "white"}, "id": "Reverse Spiderweb", "label": "Reverse Spiderweb", "shape": "dot", "title": "Reverse Spiderweb Neighbors:\u003cbr\u003eUltra Kimura", "value": 1}, {"color": "orange", "font": {"color": "white"}, "id": "Ultra Kimura", "label": "Ultra Kimura", "shape": "star", "title": "Ultra Kimura Neighbors:\u003cbr\u003eTriangle\u003cbr\u003eReverse Spiderweb\u003cbr\u003ePerfect Armbar", "value": 3}, {"color": "fuschsia", "font": {"color": "white"}, "id": "Perfect Armbar", "label": "Perfect Armbar", "shape": "star", "title": "Perfect Armbar Neighbors:\u003cbr\u003eUltra Kimura", "value": 1}, {"color": "purple", "font": {"color": "white"}, "id": "Triangle", "label": "Triangle", "shape": "star", "title": "Triangle Neighbors:\u003cbr\u003eUltra Kimura", "value": 1}]);
+                  nodes = new vis.DataSet([{"color": "orange", "font": {"color": "white"}, "id": "Reverse Spiderweb", "label": "Reverse Spiderweb", "shape": "dot", "title": "Reverse Spiderweb Neighbors:\u003cbr\u003eUltra Kimura", "value": 1}, {"color": "orange", "font": {"color": "white"}, "id": "Ultra Kimura", "label": "Ultra Kimura", "shape": "star", "title": "Ultra Kimura Neighbors:\u003cbr\u003eTriangle\u003cbr\u003eReverse Spiderweb\u003cbr\u003ePerfect Armbar", "value": 3}, {"color": "aquamarine", "font": {"color": "white"}, "id": "Perfect Armbar", "label": "Perfect Armbar", "shape": "star", "title": "Perfect Armbar Neighbors:\u003cbr\u003eUltra Kimura", "value": 1}, {"color": "purple", "font": {"color": "white"}, "id": "Triangle", "label": "Triangle", "shape": "star", "title": "Triangle Neighbors:\u003cbr\u003eUltra Kimura", "value": 1}]);
                   edges = new vis.DataSet([{"from": "Reverse Spiderweb", "to": "Ultra Kimura"}, {"from": "Ultra Kimura", "to": "Perfect Armbar"}, {"from": "Ultra Kimura", "to": "Triangle"}]);
 
                   nodeColors = {};

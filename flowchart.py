@@ -12,7 +12,7 @@ got_net = Network(height="100%",width='100%', bgcolor="black", font_color="white
 
 # set the physics layout of the network
 type_dict = {'Positional':'dot', 'Transition':'diamond','Submission':'star','Sweep':'square','Escape':'triangle'} 
-system_dict = {'Lockdown':'red','Open Guard':'blue','Mount':'white','Rubber Guard':'purple','Bottom Mount':'teal', 'Back Mount':'gray','Truck':'gold', 'Side Mount':'green', 'Spiderweb':'fuschsia','X Guard':'cyan','Leg Entanglements':'salmon','Reverse Spiderweb':'orange'}
+system_dict = {'Lockdown':'red','Open Guard':'blue','Mount':'white','Rubber Guard':'purple','Bottom Mount':'teal', 'Back Mount':'gray','Truck':'gold', 'Side Mount':'green', 'Spiderweb':'aquamarine','X Guard':'cyan','Leg Entanglements':'salmon','Reverse Spiderweb':'orange'}
 got_data = pd.read_csv("moves_flow.csv")
 technique_db = pd.read_csv('technique_db.csv')
 technique_db = technique_db.set_index('Technique')

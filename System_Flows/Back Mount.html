@@ -4,7 +4,7 @@
         
             <script src="lib/bindings/utils.js"></script>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script src="https://cdfnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             
         
 <center>
@@ -35,7 +35,7 @@
                  width: 100%;
                  height: 100%;
                  background-color: black;
-                 border: 1px solid lightgray;
+                 border: 1px solid lighthotpink;
                  position: relative;
                  float: left;
              }
@@ -57,32 +57,35 @@
          </div>
 
         <div id="legend" class="col-8 pb-2">
-                <a id='lockdown' href='System_Flows/Lockdown.html' class='button'>Lockdown</a>
+                
+                <a id='lockdown' href='Lockdown.html' class='button'>Lockdown</a>
 
 
 
                 
-                <a id='rubber_guard' href='System_Flows/Rubber Guard.html' class='button'>Rubber Guard</a>
+                <a id='rubber_guard' href='Rubber Guard.html' class='button'>Rubber Guard</a>
     
-                <a id= 'mount' href='System_Flows/Mount.html' class='button'>Mount</a>
+                <a id= 'mount' href='Mount.html' class='button'>Mount</a>
 
-                <a id='back' href='System_Flows/Back Mount.html' class='button'>Back</a>
+                <a id='back' href='Back Mount.html' class='button'>Back</a>
 
-                <a id='leg_entanglements' href='System_Flows/Leg Entanglements.html' class='button'>Leg Entanglements</a>
+                <a id='leg_entanglements' href='Leg Entanglements.html' class='button'>Leg Entanglements</a>
 
-                <a id='side_mount' href='System_Flows/Side Mount.html' class='button'>Side Mount</a>
+                <a id='side_mount' href='Side Mount.html' class='button'>Side Mount</a>
 
-                <a id='spiderweb' href='System_Flows/Spiderweb.html' class='button'>Spiderweb</a>
+                <a id='spiderweb' href='Spiderweb.html' class='button'>Spiderweb</a>
 
-                <a id='open_guard' href='System_Flows/Open Guard.html' class='button'>Open Guard</a>
+                <a id='open_guard' href='Open Guard.html' class='button'>Open Guard</a>
 
-                <a id='bottom_mount' href='System_Flows/Bottom Mount.html' class='button'>Bottom Mount</a>
+                <a id='bottom_mount' href='Bottom Mount.html' class='button'>Bottom Mount</a>
 
-                <a id='truck' href='System_Flows/Truck.html' class='button'>Truck</a>
+                <a id='truck' href='Truck.html' class='button'>Truck</a>
 
-                <a id='x_guard' href='System_Flows/X Guard.html' class='button'>X Guard</a>
+                <a id='x_guard' href='X Guard.html' class='button'>X Guard</a>
 
-                <a id='reverse_spiderweb' href='System_Flows/Reverse Spiderweb.html' class='button'>Reverse Spiderweb</a>
+                <a id='reverse_spiderweb' href='Reverse Spiderweb.html' class='button'>Reverse Spiderweb</a>
+
+                <a id='Reset' href='../index_v2.html' class='button'>Reset</a>
 
 
             </div>
@@ -124,7 +127,7 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "gray", "font": {"color": "white"}, "id": "Back", "label": "Back", "shape": "dot", "title": "Back Neighbors:\u003cbr\u003eSeatbelt", "value": 1}, {"color": "gray", "font": {"color": "white"}, "id": "Seatbelt", "label": "Seatbelt", "shape": "dot", "title": "Seatbelt Neighbors:\u003cbr\u003eBuck\u003cbr\u003eBack\u003cbr\u003eRNC", "value": 3}, {"color": "gray", "font": {"color": "white"}, "id": "RNC", "label": "RNC", "shape": "star", "title": "RNC Neighbors:\u003cbr\u003eSeatbelt", "value": 1}, {"color": "gray", "font": {"color": "white"}, "id": "Buck", "label": "Buck", "shape": "diamond", "title": "Buck Neighbors:\u003cbr\u003eTruck\u003cbr\u003eSeatbelt", "value": 2}, {"color": "gold", "font": {"color": "white"}, "id": "Truck", "label": "Truck", "shape": "dot", "title": "Truck Neighbors:\u003cbr\u003eBuck", "value": 1}]);
+                  nodes = new vis.DataSet([{"color": "hotpink", "font": {"color": "white"}, "id": "Back", "label": "Back", "shape": "dot", "title": "Back Neighbors:\u003cbr\u003eSeatbelt", "value": 1}, {"color": "hotpink", "font": {"color": "white"}, "id": "Seatbelt", "label": "Seatbelt", "shape": "dot", "title": "Seatbelt Neighbors:\u003cbr\u003eBuck\u003cbr\u003eBack\u003cbr\u003eRNC", "value": 3}, {"color": "hotpink", "font": {"color": "white"}, "id": "RNC", "label": "RNC", "shape": "star", "title": "RNC Neighbors:\u003cbr\u003eSeatbelt", "value": 1}, {"color": "hotpink", "font": {"color": "white"}, "id": "Buck", "label": "Buck", "shape": "diamond", "title": "Buck Neighbors:\u003cbr\u003eTruck\u003cbr\u003eSeatbelt", "value": 2}, {"color": "gold", "font": {"color": "white"}, "id": "Truck", "label": "Truck", "shape": "dot", "title": "Truck Neighbors:\u003cbr\u003eBuck", "value": 1}]);
                   edges = new vis.DataSet([{"from": "Back", "to": "Seatbelt"}, {"from": "Seatbelt", "to": "RNC"}, {"from": "Seatbelt", "to": "Buck"}, {"from": "Buck", "to": "Truck"}]);
 
                   nodeColors = {};
