@@ -50,7 +50,7 @@
 <a class="button" href="Truck.html" id="truck">Truck</a>
 <a class="button" href="X Guard.html" id="x_guard">X Guard</a>
 <a class="button" href="Reverse Spiderweb.html" id="reverse_spiderweb">Reverse Spiderweb</a>
-<a class="button" href="../index_v2.html" id="Reset">Reset</a>
+<a class="button" href="../index.html" id="Reset">Reset</a>
 </div>
 <div class="card" style="width: 100%">
 <div class="card-body" id="mynetwork"></div>
@@ -84,7 +84,7 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "orange", "font": {"color": "white"}, "id": "Reverse Spiderweb", "label": "Reverse Spiderweb", "shape": "dot", "title": "Reverse Spiderweb Neighbors:\u003cbr\u003eUltra Kimura", "value": 1}, {"color": "orange", "font": {"color": "white"}, "id": "Ultra Kimura", "label": "Ultra Kimura", "shape": "star", "title": "Ultra Kimura Neighbors:\u003cbr\u003eTriangle\u003cbr\u003eReverse Spiderweb\u003cbr\u003ePerfect Armbar", "value": 3}, {"color": "aquamarine", "font": {"color": "white"}, "id": "Perfect Armbar", "label": "Perfect Armbar", "shape": "star", "title": "Perfect Armbar Neighbors:\u003cbr\u003eUltra Kimura", "value": 1}, {"color": "purple", "font": {"color": "white"}, "id": "Triangle", "label": "Triangle", "shape": "star", "title": "Triangle Neighbors:\u003cbr\u003eUltra Kimura", "value": 1}]);
+                  nodes = new vis.DataSet([{"color": "orange", "font": {"color": "white"}, "id": "Reverse Spiderweb", "label": "Reverse Spiderweb", "shape": "dot", "title": "Reverse Spiderweb Neighbors:\u003cbr\u003eUltra Kimura", "value": 1}, {"color": "orange", "font": {"color": "white"}, "id": "Ultra Kimura", "label": "Ultra Kimura", "shape": "star", "title": "Ultra Kimura Neighbors:\u003cbr\u003eReverse Spiderweb\u003cbr\u003eTriangle\u003cbr\u003ePerfect Armbar", "value": 3}, {"color": "aquamarine", "font": {"color": "white"}, "id": "Perfect Armbar", "label": "Perfect Armbar", "shape": "star", "title": "Perfect Armbar Neighbors:\u003cbr\u003eUltra Kimura", "value": 1}, {"color": "purple", "font": {"color": "white"}, "id": "Triangle", "label": "Triangle", "shape": "star", "title": "Triangle Neighbors:\u003cbr\u003eUltra Kimura", "value": 1}]);
                   edges = new vis.DataSet([{"from": "Reverse Spiderweb", "to": "Ultra Kimura"}, {"from": "Ultra Kimura", "to": "Perfect Armbar"}, {"from": "Ultra Kimura", "to": "Triangle"}]);
 
                   nodeColors = {};
