@@ -1,0 +1,202 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 100%;
+                 background-color: black;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    <link rel="stylesheet" href="../css/styles.css">
+    </head>
+
+
+    <body>
+        <div id='logo' class="col-2 pb-2">
+            <img src="../10pStPete.png" alt="logo"width=100px
+             height=100px>
+         </div>
+
+        <div id="legend" class="col-8 pb-2">
+                
+                <a id='lockdown' href='Lockdown.html' class='button'>Lockdown</a>
+
+
+
+                
+                <a id='rubber_guard' href='Rubber Guard.html' class='button'>Rubber Guard</a>
+    
+                <a id= 'mount' href='Mount.html' class='button'>Mount</a>
+
+                <a id='back' href='Back Mount.html' class='button'>Back</a>
+
+                <a id='leg_entanglements' href='Leg Entanglements.html' class='button'>Leg Entanglements</a>
+
+                <a id='side_mount' href='Side Mount.html' class='button'>Side Mount</a>
+
+                <a id='spiderweb' href='Spiderweb.html' class='button'>Spiderweb</a>
+
+                <a id='open_guard' href='Open Guard.html' class='button'>Open Guard</a>
+
+                <a id='bottom_mount' href='Bottom Mount.html' class='button'>Bottom Mount</a>
+
+                <a id='truck' href='Truck.html' class='button'>Truck</a>
+
+                <a id='x_guard' href='X Guard.html' class='button'>X Guard</a>
+
+                <a id='reverse_spiderweb' href='Reverse Spiderweb.html' class='button'>Reverse Spiderweb</a>
+
+                <a id='Reset' href='../index_v2.html' class='button'>Reset</a>
+
+
+            </div>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "aquamarine", "font": {"color": "white"}, "id": "Spiderweb", "label": "Spiderweb", "shape": "dot", "title": "Spiderweb Neighbors:\u003cbr\u003eArmcrush\u003cbr\u003eArmbar\u003cbr\u003eX-Break\u003cbr\u003eKimura Grip", "value": 4}, {"color": "aquamarine", "font": {"color": "white"}, "id": "Armbar", "label": "Armbar", "shape": "star", "title": "Armbar Neighbors:\u003cbr\u003eArmcrush\u003cbr\u003eX-Break\u003cbr\u003eSpiderweb", "value": 3}, {"color": "aquamarine", "font": {"color": "white"}, "id": "Kimura Grip", "label": "Kimura Grip", "shape": "diamond", "title": "Kimura Grip Neighbors:\u003cbr\u003eSpiderweb", "value": 1}, {"color": "aquamarine", "font": {"color": "white"}, "id": "Armcrush", "label": "Armcrush", "shape": "star", "title": "Armcrush Neighbors:\u003cbr\u003eArmbar\u003cbr\u003eSpiderweb\u003cbr\u003ePerfect Armbar", "value": 3}, {"color": "aquamarine", "font": {"color": "white"}, "id": "X-Break", "label": "X-Break", "shape": "diamond", "title": "X-Break Neighbors:\u003cbr\u003eMounted Triangle\u003cbr\u003eArmbar\u003cbr\u003eSpiderweb", "value": 3}, {"color": "aquamarine", "font": {"color": "white"}, "id": "Perfect Armbar", "label": "Perfect Armbar", "shape": "star", "title": "Perfect Armbar Neighbors:\u003cbr\u003eArmcrush", "value": 1}, {"color": "white", "font": {"color": "white"}, "id": "Mounted Triangle", "label": "Mounted Triangle", "shape": "star", "title": "Mounted Triangle Neighbors:\u003cbr\u003eX-Break", "value": 1}]);
+                  edges = new vis.DataSet([{"from": "Spiderweb", "to": "Armbar"}, {"from": "Spiderweb", "to": "Kimura Grip"}, {"from": "Spiderweb", "to": "Armcrush"}, {"from": "Spiderweb", "to": "X-Break"}, {"from": "Armcrush", "to": "Armbar"}, {"from": "Armcrush", "to": "Perfect Armbar"}, {"from": "X-Break", "to": "Armbar"}, {"from": "X-Break", "to": "Mounted Triangle"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "repulsion": {
+            "centralGravity": 0.33,
+            "damping": 0.95,
+            "nodeDistance": 420,
+            "springConstant": 0.1,
+            "springLength": 110
+        },
+        "solver": "repulsion",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

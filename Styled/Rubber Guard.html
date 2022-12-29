@@ -1,0 +1,202 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 100%;
+                 background-color: black;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    <link rel="stylesheet" href="../css/styles.css">
+    </head>
+
+
+    <body>
+        <div id='logo' class="col-2 pb-2">
+            <img src="../10pStPete.png" alt="logo"width=100px
+             height=100px>
+         </div>
+
+        <div id="legend" class="col-8 pb-2">
+                
+                <a id='lockdown' href='Lockdown.html' class='button'>Lockdown</a>
+
+
+
+                
+                <a id='rubber_guard' href='Rubber Guard.html' class='button'>Rubber Guard</a>
+    
+                <a id= 'mount' href='Mount.html' class='button'>Mount</a>
+
+                <a id='back' href='Back Mount.html' class='button'>Back</a>
+
+                <a id='leg_entanglements' href='Leg Entanglements.html' class='button'>Leg Entanglements</a>
+
+                <a id='side_mount' href='Side Mount.html' class='button'>Side Mount</a>
+
+                <a id='spiderweb' href='Spiderweb.html' class='button'>Spiderweb</a>
+
+                <a id='open_guard' href='Open Guard.html' class='button'>Open Guard</a>
+
+                <a id='bottom_mount' href='Bottom Mount.html' class='button'>Bottom Mount</a>
+
+                <a id='truck' href='Truck.html' class='button'>Truck</a>
+
+                <a id='x_guard' href='X Guard.html' class='button'>X Guard</a>
+
+                <a id='reverse_spiderweb' href='Reverse Spiderweb.html' class='button'>Reverse Spiderweb</a>
+
+                <a id='Reset' href='../index_v2.html' class='button'>Reset</a>
+
+
+            </div>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "purple", "font": {"color": "white"}, "id": "Chill Dog", "label": "Chill Dog", "shape": "dot", "title": "Chill Dog Neighbors:\u003cbr\u003eKung Fu Move\u003cbr\u003eInvisible Collar\u003cbr\u003eClear the Head", "value": 3}, {"color": "purple", "font": {"color": "white"}, "id": "Invisible Collar", "label": "Invisible Collar", "shape": "dot", "title": "Invisible Collar Neighbors:\u003cbr\u003eDouble Bag\u003cbr\u003eChill Dog", "value": 2}, {"color": "purple", "font": {"color": "white"}, "id": "Kung Fu Move", "label": "Kung Fu Move", "shape": "diamond", "title": "Kung Fu Move Neighbors:\u003cbr\u003eJiu Claw\u003cbr\u003eChill Dog\u003cbr\u003eClear the Head\u003cbr\u003eGogo Clinch", "value": 4}, {"color": "purple", "font": {"color": "white"}, "id": "Clear the Head", "label": "Clear the Head", "shape": "diamond", "title": "Clear the Head Neighbors:\u003cbr\u003eNew Jersey\u003cbr\u003eChill Dog\u003cbr\u003eKung Fu Move\u003cbr\u003eDouble Bag\u003cbr\u003eNew York\u003cbr\u003eCarni", "value": 6}, {"color": "purple", "font": {"color": "white"}, "id": "Carni", "label": "Carni", "shape": "dot", "title": "Carni Neighbors:\u003cbr\u003eJiu Claw\u003cbr\u003eClear the Head", "value": 2}, {"color": "purple", "font": {"color": "white"}, "id": "Double Bag", "label": "Double Bag", "shape": "diamond", "title": "Double Bag Neighbors:\u003cbr\u003eMission Control\u003cbr\u003eInvisible Collar\u003cbr\u003eNew York\u003cbr\u003eClear the Head", "value": 4}, {"color": "purple", "font": {"color": "white"}, "id": "Fire \u0026 Flip", "label": "Fire \u0026 Flip", "shape": "diamond", "title": "Fire \u0026 Flip Neighbors:\u003cbr\u003eJiu Claw\u003cbr\u003eNew York\u003cbr\u003eGogo Clinch", "value": 3}, {"color": "purple", "font": {"color": "white"}, "id": "Gogo Clinch", "label": "Gogo Clinch", "shape": "dot", "title": "Gogo Clinch Neighbors:\u003cbr\u003eKung Fu Move\u003cbr\u003eHazelet\u003cbr\u003eJiu Claw\u003cbr\u003eFire \u0026 Flip", "value": 4}, {"color": "purple", "font": {"color": "white"}, "id": "Jiu Claw", "label": "Jiu Claw", "shape": "dot", "title": "Jiu Claw Neighbors:\u003cbr\u003eOmoplata\u003cbr\u003eFire \u0026 Flip\u003cbr\u003eHazelet\u003cbr\u003eKung Fu Move\u003cbr\u003eCarni\u003cbr\u003eGogo Clinch", "value": 6}, {"color": "purple", "font": {"color": "white"}, "id": "Hazelet", "label": "Hazelet", "shape": "star", "title": "Hazelet Neighbors:\u003cbr\u003eDeath from Below\u003cbr\u003eJiu Claw\u003cbr\u003eGogo Clinch", "value": 3}, {"color": "purple", "font": {"color": "white"}, "id": "Gun Show", "label": "Gun Show", "shape": "star", "title": "Gun Show Neighbors:\u003cbr\u003eMission Control\u003cbr\u003eDead Orchard", "value": 2}, {"color": "purple", "font": {"color": "white"}, "id": "Dead Orchard", "label": "Dead Orchard", "shape": "star", "title": "Dead Orchard Neighbors:\u003cbr\u003eGun Show", "value": 1}, {"color": "purple", "font": {"color": "white"}, "id": "Omoplata", "label": "Omoplata", "shape": "diamond", "title": "Omoplata Neighbors:\u003cbr\u003eJudo Side\u003cbr\u003eJiu Claw", "value": 2}, {"color": "purple", "font": {"color": "white"}, "id": "Meat Hook", "label": "Meat Hook", "shape": "dot", "title": "Meat Hook Neighbors:\u003cbr\u003ePyramid\u003cbr\u003eNew York\u003cbr\u003eClip", "value": 3}, {"color": "purple", "font": {"color": "white"}, "id": "Clip", "label": "Clip", "shape": "dot", "title": "Clip Neighbors:\u003cbr\u003ePyramid\u003cbr\u003eClear Arm\u003cbr\u003eMeat Hook", "value": 3}, {"color": "purple", "font": {"color": "white"}, "id": "Pyramid", "label": "Pyramid", "shape": "dot", "title": "Pyramid Neighbors:\u003cbr\u003eStocks\u003cbr\u003eMeat Hook\u003cbr\u003eNew York\u003cbr\u003eClip", "value": 4}, {"color": "purple", "font": {"color": "white"}, "id": "Mission Control", "label": "Mission Control", "shape": "dot", "title": "Mission Control Neighbors:\u003cbr\u003eZombie\u003cbr\u003eCrackhead\u003cbr\u003eDouble Bag\u003cbr\u003eGun Show", "value": 4}, {"color": "purple", "font": {"color": "white"}, "id": "Crackhead", "label": "Crackhead", "shape": "dot", "title": "Crackhead Neighbors:\u003cbr\u003eMission Control", "value": 1}, {"color": "purple", "font": {"color": "white"}, "id": "Zombie", "label": "Zombie", "shape": "diamond", "title": "Zombie Neighbors:\u003cbr\u003eMission Control\u003cbr\u003eNew York", "value": 2}, {"color": "purple", "font": {"color": "white"}, "id": "New Jersey", "label": "New Jersey", "shape": "dot", "title": "New Jersey Neighbors:\u003cbr\u003eNew York\u003cbr\u003eClear the Head", "value": 2}, {"color": "purple", "font": {"color": "white"}, "id": "New York", "label": "New York", "shape": "dot", "title": "New York Neighbors:\u003cbr\u003eStocks\u003cbr\u003eNew Jersey\u003cbr\u003eFire \u0026 Flip\u003cbr\u003eMeat Hook\u003cbr\u003eNew York Crackhead\u003cbr\u003ePyramid\u003cbr\u003eDouble Bag\u003cbr\u003eClear the Head\u003cbr\u003eZombie", "value": 9}, {"color": "purple", "font": {"color": "white"}, "id": "New York Crackhead", "label": "New York Crackhead", "shape": "dot", "title": "New York Crackhead Neighbors:\u003cbr\u003eNew York", "value": 1}, {"color": "purple", "font": {"color": "white"}, "id": "Stocks", "label": "Stocks", "shape": "dot", "title": "Stocks Neighbors:\u003cbr\u003ePyramid\u003cbr\u003eNew York", "value": 2}, {"color": "purple", "font": {"color": "white"}, "id": "Clear Arm", "label": "Clear Arm", "shape": "diamond", "title": "Clear Arm Neighbors:\u003cbr\u003eTriangle\u003cbr\u003eClip", "value": 2}, {"color": "purple", "font": {"color": "white"}, "id": "Triangle", "label": "Triangle", "shape": "star", "title": "Triangle Neighbors:\u003cbr\u003eClear Arm", "value": 1}, {"color": "green", "font": {"color": "white"}, "id": "Judo Side", "label": "Judo Side", "shape": "dot", "title": "Judo Side Neighbors:\u003cbr\u003eOmoplata", "value": 1}, {"color": "purple", "font": {"color": "white"}, "id": "Death from Below", "label": "Death from Below", "shape": "star", "title": "Death from Below Neighbors:\u003cbr\u003eHazelet", "value": 1}]);
+                  edges = new vis.DataSet([{"from": "Chill Dog", "to": "Invisible Collar"}, {"from": "Chill Dog", "to": "Kung Fu Move"}, {"from": "Clear the Head", "to": "Chill Dog"}, {"from": "Clear the Head", "to": "Kung Fu Move"}, {"from": "Clear the Head", "to": "Carni"}, {"from": "Double Bag", "to": "Clear the Head"}, {"from": "Double Bag", "to": "Invisible Collar"}, {"from": "Fire \u0026 Flip", "to": "Gogo Clinch"}, {"from": "Fire \u0026 Flip", "to": "Jiu Claw"}, {"from": "Gogo Clinch", "to": "Jiu Claw"}, {"from": "Gogo Clinch", "to": "Hazelet"}, {"from": "Gun Show", "to": "Dead Orchard"}, {"from": "Jiu Claw", "to": "Omoplata"}, {"from": "Kung Fu Move", "to": "Gogo Clinch"}, {"from": "Kung Fu Move", "to": "Jiu Claw"}, {"from": "Meat Hook", "to": "Clip"}, {"from": "Meat Hook", "to": "Pyramid"}, {"from": "Mission Control", "to": "Crackhead"}, {"from": "Mission Control", "to": "Double Bag"}, {"from": "Mission Control", "to": "Gun Show"}, {"from": "Mission Control", "to": "Zombie"}, {"from": "New Jersey", "to": "Clear the Head"}, {"from": "New Jersey", "to": "New York"}, {"from": "New York", "to": "Clear the Head"}, {"from": "New York", "to": "Double Bag"}, {"from": "New York", "to": "Fire \u0026 Flip"}, {"from": "New York", "to": "Meat Hook"}, {"from": "New York", "to": "New York Crackhead"}, {"from": "New York", "to": "Stocks"}, {"from": "Pyramid", "to": "New York"}, {"from": "Pyramid", "to": "Clip"}, {"from": "Pyramid", "to": "Stocks"}, {"from": "Zombie", "to": "New York"}, {"from": "Clip", "to": "Clear Arm"}, {"from": "Clear Arm", "to": "Triangle"}, {"from": "Carni", "to": "Jiu Claw"}, {"from": "Omoplata", "to": "Judo Side"}, {"from": "Hazelet", "to": "Death from Below"}, {"from": "Hazelet", "to": "Jiu Claw"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "repulsion": {
+            "centralGravity": 0.33,
+            "damping": 0.95,
+            "nodeDistance": 420,
+            "springConstant": 0.1,
+            "springLength": 110
+        },
+        "solver": "repulsion",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
