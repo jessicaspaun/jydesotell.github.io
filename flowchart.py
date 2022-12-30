@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 
 
-got_net = Network(height="100%",width='100%', bgcolor="black", font_color="white", select_menu=False)
+got_net = Network(height="500",width='100%', bgcolor="black", font_color="white", select_menu=False)
 
 # set the physics layout of the network
 type_dict = {'Positional':'dot', 'Transition':'diamond','Submission':'star','Sweep':'square','Escape':'triangle'} 
@@ -46,9 +46,9 @@ for e in edge_data:
 neighbor_map = got_net.get_adj_list()
 
 #Generate network with specific layout settings
-got_net.repulsion(node_distance=420, central_gravity=0.33,
-                   spring_length=110, spring_strength=0.10,
-                   damping=0.95)
+got_net.repulsion(node_distance=170, central_gravity=2,
+                   spring_length=165, spring_strength=0.10,
+                   damping=0.26)
 
 
 # add neighbor data to node hover data
@@ -57,7 +57,7 @@ for node in got_net.nodes:
 	node["title"] += " Neighbors:<br>" + "<br>".join(neighbor_map[node["id"]])
 	node["value"] = len(neighbor_map[node["id"]])
 
-got_net.show_buttons(filter_=['physics'])
+
 
 
 got_net.save_graph('graphs/index.html')
@@ -132,9 +132,9 @@ for key in system_dict.keys():
 	neighbor_map = got_net.get_adj_list()
 
 	#Generate network with specific layout settings
-	got_net.repulsion(node_distance=420, central_gravity=0.33,
-	                   spring_length=110, spring_strength=0.10,
-	                   damping=0.95)
+	got_net.repulsion(node_distance=170, central_gravity=2,
+                   spring_length=165, spring_strength=0.10,
+                   damping=0.26)
 
 
 	for node in got_net.nodes:
