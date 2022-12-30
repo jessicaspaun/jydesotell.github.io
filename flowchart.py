@@ -66,7 +66,7 @@ got_net.save_graph('graphs/index.html')
 # Opening the html file
 HTMLFile = open("graphs/index.html", "r")
 
-HTMLFile_styled = open('System_Flows/index_v2.html', 'r')
+HTMLFile_styled = open('Styled/index_v2.html', 'r')
   
 # Reading the file
 index = HTMLFile.read()
@@ -149,7 +149,7 @@ for key in system_dict.keys():
 	# Opening the html file
 	HTMLFile = open('graphs/'+key+'.html', "r")
 
-	HTMLFile_styled = open('Styled/'+key+'.html', 'r')
+	HTMLFile_styled = open('Styled/'+'Back Mount'+'.html', 'r')
 	  
 	# Reading the file
 	index = HTMLFile.read()

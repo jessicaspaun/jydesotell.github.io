@@ -34,8 +34,8 @@
 <link href="../css/styles.css" rel="stylesheet"/>
 </head>
 <body>
-<div class="col-2 pb-2" id="logo">
-<img alt="logo" height="100px" src="../10pStPete.png" width="100px"/>
+<div class="col-2 pb-2 square" id="logo">
+<img alt="logo" class="content" height="100px" src="../10pStPeteLogo.png" width="100px"/>
 </div>
 <div class="col-8 pb-2" id="legend">
 <a class="button" href="Lockdown.html" id="lockdown">Lockdown</a>
@@ -82,7 +82,7 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "green", "font": {"color": "white"}, "id": "Judo Side", "label": "Judo Side", "shape": "dot", "title": "Judo Side Neighbors:\u003cbr\u003eTwister Side", "value": 1}, {"color": "green", "font": {"color": "white"}, "id": "Twister Side", "label": "Twister Side", "shape": "dot", "title": "Twister Side Neighbors:\u003cbr\u003eNessy\u003cbr\u003eJudo Side", "value": 2}, {"color": "green", "font": {"color": "white"}, "id": "Nessy", "label": "Nessy", "shape": "diamond", "title": "Nessy Neighbors:\u003cbr\u003eTwister Side\u003cbr\u003eFish Net", "value": 2}, {"color": "green", "font": {"color": "white"}, "id": "Fish Net", "label": "Fish Net", "shape": "diamond", "title": "Fish Net Neighbors:\u003cbr\u003eNessy\u003cbr\u003eSamurai Roll", "value": 2}, {"color": "green", "font": {"color": "white"}, "id": "Samurai Roll", "label": "Samurai Roll", "shape": "diamond", "title": "Samurai Roll Neighbors:\u003cbr\u003eTruck\u003cbr\u003eFish Net", "value": 2}, {"color": "gold", "font": {"color": "white"}, "id": "Truck", "label": "Truck", "shape": "dot", "title": "Truck Neighbors:\u003cbr\u003eSamurai Roll", "value": 1}]);
+                  nodes = new vis.DataSet([{"color": "green", "font": {"color": "white"}, "id": "Judo Side", "label": "Judo Side", "shape": "dot", "title": "Judo Side Neighbors:\u003cbr\u003eTwister Side", "value": 1}, {"color": "green", "font": {"color": "white"}, "id": "Twister Side", "label": "Twister Side", "shape": "dot", "title": "Twister Side Neighbors:\u003cbr\u003eJudo Side\u003cbr\u003eNessy", "value": 2}, {"color": "green", "font": {"color": "white"}, "id": "Nessy", "label": "Nessy", "shape": "diamond", "title": "Nessy Neighbors:\u003cbr\u003eTwister Side\u003cbr\u003eFish Net", "value": 2}, {"color": "green", "font": {"color": "white"}, "id": "Fish Net", "label": "Fish Net", "shape": "diamond", "title": "Fish Net Neighbors:\u003cbr\u003eSamurai Roll\u003cbr\u003eNessy", "value": 2}, {"color": "green", "font": {"color": "white"}, "id": "Samurai Roll", "label": "Samurai Roll", "shape": "diamond", "title": "Samurai Roll Neighbors:\u003cbr\u003eTruck\u003cbr\u003eFish Net", "value": 2}, {"color": "gold", "font": {"color": "white"}, "id": "Truck", "label": "Truck", "shape": "dot", "title": "Truck Neighbors:\u003cbr\u003eSamurai Roll", "value": 1}]);
                   edges = new vis.DataSet([{"from": "Judo Side", "to": "Twister Side"}, {"from": "Twister Side", "to": "Nessy"}, {"from": "Nessy", "to": "Fish Net"}, {"from": "Fish Net", "to": "Samurai Roll"}, {"from": "Samurai Roll", "to": "Truck"}]);
 
                   nodeColors = {};
