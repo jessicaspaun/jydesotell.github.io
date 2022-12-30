@@ -46,15 +46,16 @@
 
              
         </style>
-<link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/styles.css">
     </head>
 
 
     <body>
-        <div id='logo' class="col-2 pb-2">
-            <img src="../10pStPete.png" alt="logo"width=100px
-             height=100px>
+        <div id='logo' class="col-2 pb-2 square">
+            <a href='https://10thplanetstpete.com' target='_blank'><img src="../10pStPeteLogo.png" alt="logo"width=100px
+             height=100px class='content'></a>
          </div>
+
 
         <div id="legend" class="col-8 pb-2">
                 
@@ -86,8 +87,6 @@
                 <a id='reverse_spiderweb' href='Reverse Spiderweb.html' class='button'>Reverse Spiderweb</a>
 
                 <a id='Reset' href='../index.html' class='button'>Reset</a>
-
-
             </div>
 
             
@@ -127,8 +126,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "white", "font": {"color": "white"}, "id": "3/4 Mount", "label": "3/4 Mount", "shape": "dot", "title": "3/4 Mount Neighbors:\u003cbr\u003eMount\u003cbr\u003eBaby Bolo", "value": 2}, {"color": "white", "font": {"color": "white"}, "id": "Mount", "label": "Mount", "shape": "dot", "title": "Mount Neighbors:\u003cbr\u003eHigh Mount\u003cbr\u003eGift Wrap\u003cbr\u003eS-Mount\u003cbr\u003e3/4 Mount", "value": 4}, {"color": "white", "font": {"color": "white"}, "id": "Baby Bolo", "label": "Baby Bolo", "shape": "diamond", "title": "Baby Bolo Neighbors:\u003cbr\u003eBack\u003cbr\u003e3/4 Mount\u003cbr\u003eTruck", "value": 3}, {"color": "white", "font": {"color": "white"}, "id": "Gift Wrap", "label": "Gift Wrap", "shape": "diamond", "title": "Gift Wrap Neighbors:\u003cbr\u003eHead \u0026 Arm\u003cbr\u003eMount\u003cbr\u003eBack", "value": 3}, {"color": "white", "font": {"color": "white"}, "id": "High Mount", "label": "High Mount", "shape": "dot", "title": "High Mount Neighbors:\u003cbr\u003eMount", "value": 1}, {"color": "white", "font": {"color": "white"}, "id": "S-Mount", "label": "S-Mount", "shape": "dot", "title": "S-Mount Neighbors:\u003cbr\u003eMounted Triangle\u003cbr\u003eArmbar\u003cbr\u003eMount\u003cbr\u003eDeep Hook", "value": 4}, {"color": "gray", "font": {"color": "white"}, "id": "Back", "label": "Back", "shape": "dot", "title": "Back Neighbors:\u003cbr\u003eGift Wrap\u003cbr\u003eBaby Bolo", "value": 2}, {"color": "gold", "font": {"color": "white"}, "id": "Truck", "label": "Truck", "shape": "dot", "title": "Truck Neighbors:\u003cbr\u003eBaby Bolo", "value": 1}, {"color": "white", "font": {"color": "white"}, "id": "Head \u0026 Arm", "label": "Head \u0026 Arm", "shape": "star", "title": "Head \u0026 Arm Neighbors:\u003cbr\u003eGift Wrap", "value": 1}, {"color": "white", "font": {"color": "white"}, "id": "Deep Hook", "label": "Deep Hook", "shape": "diamond", "title": "Deep Hook Neighbors:\u003cbr\u003eSpiderweb\u003cbr\u003eS-Mount", "value": 2}, {"color": "aquamarine", "font": {"color": "white"}, "id": "Armbar", "label": "Armbar", "shape": "star", "title": "Armbar Neighbors:\u003cbr\u003eS-Mount", "value": 1}, {"color": "white", "font": {"color": "white"}, "id": "Mounted Triangle", "label": "Mounted Triangle", "shape": "star", "title": "Mounted Triangle Neighbors:\u003cbr\u003eS-Mount", "value": 1}, {"color": "aquamarine", "font": {"color": "white"}, "id": "Spiderweb", "label": "Spiderweb", "shape": "dot", "title": "Spiderweb Neighbors:\u003cbr\u003eDeep Hook", "value": 1}]);
-                  edges = new vis.DataSet([{"from": "3/4 Mount", "to": "Mount"}, {"from": "3/4 Mount", "to": "Baby Bolo"}, {"from": "Mount", "to": "Gift Wrap"}, {"from": "Mount", "to": "High Mount"}, {"from": "Mount", "to": "S-Mount"}, {"from": "Baby Bolo", "to": "Back"}, {"from": "Baby Bolo", "to": "Truck"}, {"from": "Gift Wrap", "to": "Back"}, {"from": "Gift Wrap", "to": "Head \u0026 Arm"}, {"from": "S-Mount", "to": "Deep Hook"}, {"from": "S-Mount", "to": "Armbar"}, {"from": "S-Mount", "to": "Mounted Triangle"}, {"from": "Deep Hook", "to": "Spiderweb"}]);
+                  nodes = new vis.DataSet([{"color": "teal", "font": {"color": "white"}, "id": "Gitmo", "label": "Gitmo", "shape": "triangle", "title": "Gitmo Neighbors:\u003cbr\u003eOver Unders\u003cbr\u003eBottom Mount", "value": 2}, {"color": "red", "font": {"color": "white"}, "id": "Over Unders", "label": "Over Unders", "shape": "diamond", "title": "Over Unders Neighbors:\u003cbr\u003eAlcatraz\u003cbr\u003eGitmo", "value": 2}, {"color": "teal", "font": {"color": "white"}, "id": "Alcatraz", "label": "Alcatraz", "shape": "triangle", "title": "Alcatraz Neighbors:\u003cbr\u003eOver Unders\u003cbr\u003eBottom Mount", "value": 2}, {"color": "teal", "font": {"color": "white"}, "id": "Bottom Mount", "label": "Bottom Mount", "shape": "triangle", "title": "Bottom Mount Neighbors:\u003cbr\u003eAlcatraz\u003cbr\u003eGitmo\u003cbr\u003eEscape from Alcatraz\u003cbr\u003eReverse Alcatraz", "value": 4}, {"color": "teal", "font": {"color": "white"}, "id": "Reverse Alcatraz", "label": "Reverse Alcatraz", "shape": "triangle", "title": "Reverse Alcatraz Neighbors:\u003cbr\u003eCocoon\u003cbr\u003eBottom Mount", "value": 2}, {"color": "teal", "font": {"color": "white"}, "id": "Escape from Alcatraz", "label": "Escape from Alcatraz", "shape": "triangle", "title": "Escape from Alcatraz Neighbors:\u003cbr\u003eMount\u003cbr\u003eBottom Mount", "value": 2}, {"color": "blue", "font": {"color": "white"}, "id": "Cocoon", "label": "Cocoon", "shape": "dot", "title": "Cocoon Neighbors:\u003cbr\u003eReverse Alcatraz", "value": 1}, {"color": "white", "font": {"color": "white"}, "id": "Mount", "label": "Mount", "shape": "dot", "title": "Mount Neighbors:\u003cbr\u003eEscape from Alcatraz", "value": 1}]);
+                  edges = new vis.DataSet([{"from": "Gitmo", "to": "Over Unders"}, {"from": "Alcatraz", "to": "Over Unders"}, {"from": "Bottom Mount", "to": "Gitmo"}, {"from": "Bottom Mount", "to": "Alcatraz"}, {"from": "Bottom Mount", "to": "Reverse Alcatraz"}, {"from": "Bottom Mount", "to": "Escape from Alcatraz"}, {"from": "Reverse Alcatraz", "to": "Cocoon"}, {"from": "Escape from Alcatraz", "to": "Mount"}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });

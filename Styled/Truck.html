@@ -46,15 +46,16 @@
 
              
         </style>
-    <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/styles.css">
     </head>
 
 
     <body>
-        <div id='logo' class="col-2 pb-2">
-            <img src="../10pStPete.png" alt="logo"width=100px
-             height=100px>
+        <div id='logo' class="col-2 pb-2 square">
+            <a href='https://10thplanetstpete.com' target='_blank'><img src="../10pStPeteLogo.png" alt="logo"width=100px
+             height=100px class='content'></a>
          </div>
+
 
         <div id="legend" class="col-8 pb-2">
                 
@@ -86,14 +87,12 @@
                 <a id='reverse_spiderweb' href='Reverse Spiderweb.html' class='button'>Reverse Spiderweb</a>
 
                 <a id='Reset' href='../index.html' class='button'>Reset</a>
-
-
             </div>
-    
+
             
             
             <div id="mynetwork" class="card-body"></div>
- 
+
 
         
         
@@ -127,8 +126,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "gold", "font": {"color": "white"}, "id": "Truck", "label": "Truck", "shape": "dot", "title": "Truck Neighbors:\u003cbr\u003eCalf Slicer\u003cbr\u003eMarsh\u003cbr\u003eBanana Split", "value": 3}, {"color": "gold", "font": {"color": "white"}, "id": "Banana Split", "label": "Banana Split", "shape": "star", "title": "Banana Split Neighbors:\u003cbr\u003eTruck", "value": 1}, {"color": "gold", "font": {"color": "white"}, "id": "Calf Slicer", "label": "Calf Slicer", "shape": "star", "title": "Calf Slicer Neighbors:\u003cbr\u003eTruck", "value": 1}, {"color": "gold", "font": {"color": "white"}, "id": "Marsh", "label": "Marsh", "shape": "diamond", "title": "Marsh Neighbors:\u003cbr\u003eBolt Cutter\u003cbr\u003eTruck", "value": 2}, {"color": "gold", "font": {"color": "white"}, "id": "Bolt Cutter", "label": "Bolt Cutter", "shape": "diamond", "title": "Bolt Cutter Neighbors:\u003cbr\u003eMarsh\u003cbr\u003eBaseball Bat Grip", "value": 2}, {"color": "gold", "font": {"color": "white"}, "id": "Baseball Bat Grip", "label": "Baseball Bat Grip", "shape": "diamond", "title": "Baseball Bat Grip Neighbors:\u003cbr\u003eThai Clinch\u003cbr\u003eBolt Cutter", "value": 2}, {"color": "gold", "font": {"color": "white"}, "id": "Thai Clinch", "label": "Thai Clinch", "shape": "diamond", "title": "Thai Clinch Neighbors:\u003cbr\u003eTwister\u003cbr\u003eValley\u003cbr\u003eBaseball Bat Grip", "value": 3}, {"color": "gold", "font": {"color": "white"}, "id": "Twister", "label": "Twister", "shape": "star", "title": "Twister Neighbors:\u003cbr\u003eThai Clinch", "value": 1}, {"color": "gold", "font": {"color": "white"}, "id": "Valley", "label": "Valley", "shape": "diamond", "title": "Valley Neighbors:\u003cbr\u003eThai Clinch\u003cbr\u003eRNC", "value": 2}, {"color": "gray", "font": {"color": "white"}, "id": "RNC", "label": "RNC", "shape": "star", "title": "RNC Neighbors:\u003cbr\u003eValley", "value": 1}]);
-                  edges = new vis.DataSet([{"from": "Truck", "to": "Banana Split"}, {"from": "Truck", "to": "Calf Slicer"}, {"from": "Truck", "to": "Marsh"}, {"from": "Marsh", "to": "Bolt Cutter"}, {"from": "Bolt Cutter", "to": "Baseball Bat Grip"}, {"from": "Baseball Bat Grip", "to": "Thai Clinch"}, {"from": "Thai Clinch", "to": "Twister"}, {"from": "Thai Clinch", "to": "Valley"}, {"from": "Valley", "to": "RNC"}]);
+                  nodes = new vis.DataSet([{"color": "teal", "font": {"color": "white"}, "id": "Gitmo", "label": "Gitmo", "shape": "triangle", "title": "Gitmo Neighbors:\u003cbr\u003eOver Unders\u003cbr\u003eBottom Mount", "value": 2}, {"color": "red", "font": {"color": "white"}, "id": "Over Unders", "label": "Over Unders", "shape": "diamond", "title": "Over Unders Neighbors:\u003cbr\u003eAlcatraz\u003cbr\u003eGitmo", "value": 2}, {"color": "teal", "font": {"color": "white"}, "id": "Alcatraz", "label": "Alcatraz", "shape": "triangle", "title": "Alcatraz Neighbors:\u003cbr\u003eOver Unders\u003cbr\u003eBottom Mount", "value": 2}, {"color": "teal", "font": {"color": "white"}, "id": "Bottom Mount", "label": "Bottom Mount", "shape": "triangle", "title": "Bottom Mount Neighbors:\u003cbr\u003eAlcatraz\u003cbr\u003eGitmo\u003cbr\u003eEscape from Alcatraz\u003cbr\u003eReverse Alcatraz", "value": 4}, {"color": "teal", "font": {"color": "white"}, "id": "Reverse Alcatraz", "label": "Reverse Alcatraz", "shape": "triangle", "title": "Reverse Alcatraz Neighbors:\u003cbr\u003eCocoon\u003cbr\u003eBottom Mount", "value": 2}, {"color": "teal", "font": {"color": "white"}, "id": "Escape from Alcatraz", "label": "Escape from Alcatraz", "shape": "triangle", "title": "Escape from Alcatraz Neighbors:\u003cbr\u003eMount\u003cbr\u003eBottom Mount", "value": 2}, {"color": "blue", "font": {"color": "white"}, "id": "Cocoon", "label": "Cocoon", "shape": "dot", "title": "Cocoon Neighbors:\u003cbr\u003eReverse Alcatraz", "value": 1}, {"color": "white", "font": {"color": "white"}, "id": "Mount", "label": "Mount", "shape": "dot", "title": "Mount Neighbors:\u003cbr\u003eEscape from Alcatraz", "value": 1}]);
+                  edges = new vis.DataSet([{"from": "Gitmo", "to": "Over Unders"}, {"from": "Alcatraz", "to": "Over Unders"}, {"from": "Bottom Mount", "to": "Gitmo"}, {"from": "Bottom Mount", "to": "Alcatraz"}, {"from": "Bottom Mount", "to": "Reverse Alcatraz"}, {"from": "Bottom Mount", "to": "Escape from Alcatraz"}, {"from": "Reverse Alcatraz", "to": "Cocoon"}, {"from": "Escape from Alcatraz", "to": "Mount"}]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });

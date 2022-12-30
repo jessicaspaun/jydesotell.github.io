@@ -149,7 +149,7 @@ for key in system_dict.keys():
 	# Opening the html file
 	HTMLFile = open('graphs/'+key+'.html', "r")
 
-	HTMLFile_styled = open('Styled/'+'Back Mount'+'.html', 'r')
+	HTMLFile_styled = open('Styled/'+key+'.html', 'r')
 	  
 	# Reading the file
 	index = HTMLFile.read()
