@@ -1,14 +1,11 @@
 
-
-import streamlit as st
-import streamlit.components.v1 as components
 import pandas as pd
 import networkx as nx
 from pyvis.network import Network
 from bs4 import BeautifulSoup
 
 
-st.title('10th Planet System')
+
 got_net = Network(height="100%",width='100%', bgcolor="black", font_color="white", select_menu=False)
 
 # set the physics layout of the network
