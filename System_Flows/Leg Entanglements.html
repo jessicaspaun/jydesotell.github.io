@@ -35,7 +35,7 @@
 </head>
 <body>
 <div class="col-2 pb-2 square" id="logo">
-<img alt="logo" class="content" height="100px" src="../10pStPeteLogo.png" width="100px"/>
+<a href="https://10thplanetstpete.com" target="_blank"><img alt="logo" class="content" height="100px" src="10pStPeteLogo.png" width="100px"/></a>
 </div>
 <div class="col-8 pb-2" id="legend">
 <a class="button" href="Lockdown.html" id="lockdown">Lockdown</a>
@@ -82,7 +82,7 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "salmon", "font": {"color": "white"}, "id": "Ashi Sweep", "label": "Ashi Sweep", "shape": "square", "title": "Ashi Sweep Neighbors:\u003cbr\u003eAshi", "value": 1}, {"color": "salmon", "font": {"color": "white"}, "id": "Ashi", "label": "Ashi", "shape": "dot", "title": "Ashi Neighbors:\u003cbr\u003eTop Side Ashi\u003cbr\u003eAshi Sweep", "value": 2}, {"color": "salmon", "font": {"color": "white"}, "id": "Top Side Ashi", "label": "Top Side Ashi", "shape": "dot", "title": "Top Side Ashi Neighbors:\u003cbr\u003eAshi", "value": 1}]);
+                  nodes = new vis.DataSet([{"color": "salmon", "font": {"color": "white"}, "id": "Ashi Sweep", "label": "Ashi Sweep", "shape": "square", "title": "Ashi Sweep Neighbors:\u003cbr\u003eAshi", "value": 1}, {"color": "salmon", "font": {"color": "white"}, "id": "Ashi", "label": "Ashi", "shape": "dot", "title": "Ashi Neighbors:\u003cbr\u003eAshi Sweep\u003cbr\u003eTop Side Ashi", "value": 2}, {"color": "salmon", "font": {"color": "white"}, "id": "Top Side Ashi", "label": "Top Side Ashi", "shape": "dot", "title": "Top Side Ashi Neighbors:\u003cbr\u003eAshi", "value": 1}]);
                   edges = new vis.DataSet([{"from": "Ashi Sweep", "to": "Ashi"}, {"from": "Ashi", "to": "Top Side Ashi"}]);
 
                   nodeColors = {};
