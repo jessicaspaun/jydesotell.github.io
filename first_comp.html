@@ -7,6 +7,87 @@
         h2 {
             text-shadow: 2px 2px 4px #EA3397;
         }
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/**, html,body{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+  perspective:800px;
+}
+body{
+  background-color:#227093;
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}*/
+.timeline{
+  width:800px;
+  background-color:#EA3397;
+  color:#fff;
+  padding:30px 20px;
+  box-shadow:0px 0px 10px rgba(0,0,0,.5);
+}
+.timeline ul{
+  list-style-type:none;
+  border-left:2px solid #094a68;
+  padding:10px 5px;
+}
+.timeline ul li{
+  padding:20px 20px;
+  position:relative;
+  cursor:pointer;
+  transition:.5s;
+}
+.timeline ul li span{
+  display:inline-block;
+  background-color:#1685b8;
+  border-radius:25px;
+  padding:2px 5px;
+  font-size:15px;
+  text-align:center;
+}
+.timeline ul li .content h3{
+  color:#34ace0;
+  font-size:17px;
+  padding-top:5px;
+}
+.timeline ul li .content p{
+  padding:5px 0px 15px 0px;
+  font-size:15px;
+}
+.timeline ul li:before{
+  position:absolute;
+  content:'';
+  width:10px;
+  height:10px;
+  background-color:#34ace0;
+  border-radius:50%;
+  left:-11px;
+  top:28px;
+  transition:.5s;
+}
+.timeline ul li:hover{
+  background-color:#071f2a;
+}
+.timeline ul li:hover:before{
+  background-color:#0F0;
+  box-shadow:0px 0px 10px 2px #0F0;
+}
+@media (max-width:300px){
+  .timeline{
+    width:100%;
+    padding:30px 5px 30px 10px;
+  }
+  .timeline ul li .content h3{
+    color:#34ace0;
+    font-size:15px;
+  }
+
+}
     </style>
 </head>
 <body style="background: black; color: white;">
@@ -77,29 +158,63 @@ Sleep and recovery also help a lot for weight management, get in the sleep you n
 Remember, if you are eating at a deficit your recovery will take longer, so don’t cut too much at once, feel free to talk to coaches for guidance. <br>
 As a guide, losing 1-2 lbs a week is manageable while training hard. 
 </p>
-
 <h2>Timeline</h2>
 <hr width="100%" color="#EA3397"; size="2">
-<h3>This is a loose timeline, and can change with each athlete, so listen to your body, push yourself, but staying healthy is the most important </h3>
-<p>6 - 8 weeks out: Pick the competition you want to train at, get approval by Peter to compete, get excited <br>
-<br>
-This time is to focus on your own game, don’t worry if you don’t think you have a game yet, it will develop. Start with filling out the technique section, and work with a coach to develop how to transition to each of those positions. <br>
-<br>
-DRILL, DRILL, DRILL, take time each week to drill the techniques in your list, you can always do this before class, during rolling, after class, during open mat, etc. Ask coaches and higher belts for help and to watch <br>
-<br>
-ROLL, make sure you are rolling, you could have up to 8 matches the day of your competition, you need to be getting in the rolling and high volume of it multiple times a week, coming to open mat is a great time to get this practice in. <br>
-<br>
-2 weeks out: This is your most intense week, this is the week to push yourself, get all the kinks out and push yourself to failure, go harder than you think you can, get coaches eyes on you and have them coach you through rolls, work through your game plan and focus. <br>
-<br>
-1 week out: Train hard Sunday, Monday and Tuesday. <br>
-<br>
-Wednesday, flow roll, do the live drills at a lighter pace. <br>
-<br>
-Thursday & Friday: do the technique, if there are live drills you can do them, but at a very flow pace, you can flow roll. This is the time to recover your body for the competition, you have done the work and now it’s time to make sure you are 100 on the day of. <br>
-<br>
-Saturday: Comp day. You’ve made it, no matter what, if you have done the work, you are a better athlete and should go out and have fun. Your entire team wants you to do your best and is proud of you. <br>
-<br>
-If you can’t do these now, don’t worry, work toward them and start developing them, ask questions, do live drills, work with your team, we are all here to help everyone succeed. </p>
+<div class="timeline">
+    <ul>
+      <li>
+        <span>6 - 8 Weeks Out</span>
+        <div class="content">
+          <h3>Pick the competition you want to train at, get approval by Peter to compete, get excited </h3>
+          <p>
+            <br>
+            This time is to focus on your own game, don’t worry if you don’t think you have a game yet, it will develop. Start with filling out the technique section, and work with a coach to develop how to transition to each of those positions. <br>
+            <br>
+            DRILL, DRILL, DRILL, take time each week to drill the techniques in your list, you can always do this before class, during rolling, after class, during open mat, etc. Ask coaches and higher belts for help and to watch <br>
+            <br>
+            ROLL, make sure you are rolling, you could have up to 8 matches the day of your competition, you need to be getting in the rolling and high volume of it multiple times a week, coming to open mat is a great time to get this practice in. <br>
+          </p>
+        </div>
+      </li>
+      <li>
+        <span>2 Weeks Out</span>
+        <div class="content">
+          <h3>This is your most intense week</h3>
+          <p>
+            This is the week to push yourself, get all the kinks out and push yourself to failure, go harder than you think you can, get coaches eyes on you and have them coach you through rolls, work through your game plan and focus.
+          </p>
+        </div>
+      </li>
+      <li>
+        <span>1 Week Out</span>
+        <div class="content">
+          <h3>Fight Week!</h3>
+          <p>
+            Train hard Sunday, Monday and Tuesday.<br>
+            Wednesday, flow roll, do the live drills at a lighter pace. <br>
+            <br>
+            Thursday & Friday: do the technique, if there are live drills you can do them, but at a very flow pace, you can flow roll. This is the time to recover your body for the competition, you have done the work and now it’s time to make sure you are 100 on the day of. <br>
+            <br>
+
+          </p>
+        </div>
+      </li>
+      <li>
+        <span>Saturday: COMP DAY</span>
+        <div class="content">
+          <h3>You've done the work</h3>
+          <p>
+           You’ve made it, no matter what, if you have done the work, you are a better athlete and should go out and have fun. Your entire team wants you to do your best and is proud of you. <br>
+        <br>
+        If you can’t do these now, don’t worry, work toward them and start developing them, ask questions, do live drills, work with your team, we are all here to help everyone succeed. </p>
+
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
 
 </body>
 </html>
